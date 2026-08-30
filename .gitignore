@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+pkis2_s4.xlsx
+compiled_coverage_output/
+compiled_coverage_smoke_output/

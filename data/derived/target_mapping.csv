@@ -1,0 +1,227 @@
+target_key,tid,target_chembl_id,target_name,uniprot_accession,in_common_panel
+T0001,8,CHEMBL1862,Tyrosine-protein kinase ABL,P00519,1
+T0002,9,CHEMBL203,Epidermal growth factor receptor erbB1,P00533,1
+T0003,35,CHEMBL1981,Insulin receptor,P06213,1
+T0004,197,CHEMBL1913,Platelet-derived growth factor receptor beta,P09619,0
+T0005,234,CHEMBL1957,Insulin-like growth factor I receptor,P08069,1
+T0006,238,CHEMBL1936,Stem cell growth factor receptor,P10721,0
+T0007,10120,CHEMBL3961,MAP kinase p38 beta,Q15759,0
+T0008,10140,CHEMBL258,Tyrosine-protein kinase LCK,P06239,1
+T0009,10188,CHEMBL260,MAP kinase p38 alpha,Q16539,1
+T0010,10197,CHEMBL262,Glycogen synthase kinase-3 beta,P49841,1
+T0011,10207,CHEMBL2918,cAMP-dependent protein kinase beta-1 catalytic subunit,P22694,1
+T0012,10216,CHEMBL3438,Protein kinase C zeta,Q05513,0
+T0013,10235,CHEMBL2171,Dual specificity mitogen-activated protein kinase kinase 6,P52564,1
+T0014,10250,CHEMBL2428,"Myosin light chain kinase, smooth muscle",Q15746,1
+T0015,10262,CHEMBL2426,Casein kinase I gamma 1,Q9HCP0,0
+T0016,10266,CHEMBL3650,Fibroblast growth factor receptor 1,P11362,0
+T0017,10277,CHEMBL4708,Serine/threonine-protein kinase MST2,Q13188,1
+T0018,10368,CHEMBL2828,Casein kinase I delta,P48730,1
+T0019,10371,CHEMBL4948,Dual specificity mitogen-activated protein kinase kinase 5,Q13163,1
+T0020,10434,CHEMBL267,Tyrosine-protein kinase SRC,P12931,1
+T0021,10478,CHEMBL2109,Dual specificity mitogen-activated protein kinase kinase 3,P46734,0
+T0022,10480,CHEMBL2508,Cyclin-dependent kinase 6,Q00534,0
+T0023,10695,CHEMBL2431,Serine/threonine-protein kinase AKT2,P31751,1
+T0024,10696,CHEMBL4816,Serine/threonine-protein kinase AKT3,Q9Y243,0
+T0025,10711,CHEMBL4079,G-protein coupled receptor kinase 2,P25098,1
+T0026,10781,CHEMBL2185,Serine/threonine-protein kinase Aurora-B,Q96GD4,1
+T0027,10782,CHEMBL3125,Ribosomal protein S6 kinase alpha 4,O75676,1
+T0028,10811,CHEMBL3231,Rho-associated protein kinase 1,Q13464,1
+T0029,10839,CHEMBL2147,Serine/threonine-protein kinase PIM1,P11309,1
+T0030,10842,CHEMBL3032,Protein kinase N2,Q16513,1
+T0031,10844,CHEMBL2634,Tyrosine-protein kinase CSK,P41240,1
+T0032,10850,CHEMBL4237,Ribosomal protein S6 kinase alpha 5,O75582,1
+T0033,10885,CHEMBL2595,Protein kinase C nu,O94806,1
+T0034,10901,CHEMBL2598,Protein kinase C iota,P41743,1
+T0035,10906,CHEMBL2599,Tyrosine-protein kinase SYK,P43405,1
+T0036,10907,CHEMBL3024,Serine/threonine-protein kinase PLK1,P53350,0
+T0037,10919,CHEMBL2835,Tyrosine-protein kinase JAK1,P23458,1
+T0038,10929,CHEMBL2553,Ribosomal protein S6 kinase alpha 1,Q15418,1
+T0039,10938,CHEMBL2971,Tyrosine-protein kinase JAK2,O60674,0
+T0040,10939,CHEMBL4924,Ribosomal protein S6 kinase alpha 6,Q9UK32,1
+T0041,10967,CHEMBL4937,Casein kinase I epsilon,P49674,1
+T0042,10971,CHEMBL2494,CaM kinase IV,Q16566,0
+T0043,11017,CHEMBL2850,Glycogen synthase kinase-3 alpha,P49840,1
+T0044,11019,CHEMBL4273,cGMP-dependent protein kinase 1 beta,Q13976,1
+T0045,11046,CHEMBL2964,Dual specificity mitogen-activated protein kinase kinase 2,P36507,1
+T0046,11047,CHEMBL2897,Dual specificity mitogen-activated protein kinase kinase 4,P45985,0
+T0047,11082,CHEMBL2208,MAP kinase-activated protein kinase 2,P49137,0
+T0048,11105,CHEMBL3094,MAP kinase-activated protein kinase 5,Q8IW41,0
+T0049,11149,CHEMBL2973,Rho-associated protein kinase 2,O75116,1
+T0050,11209,CHEMBL4014,Tyrosine-protein kinase ABL2,P42684,1
+T0051,11242,CHEMBL2695,Focal adhesion kinase 1,Q05397,1
+T0052,11364,CHEMBL4045,"AMP-activated protein kinase, alpha-1 subunit",Q13131,1
+T0053,11379,CHEMBL2689,Macrophage-stimulating protein receptor,Q04912,1
+T0054,11407,CHEMBL4179,c-Jun N-terminal kinase 2,P45984,1
+T0055,11408,CHEMBL2637,c-Jun N-terminal kinase 3,P53779,0
+T0056,11409,CHEMBL3587,Dual specificity mitogen-activated protein kinase kinase 1,Q02750,1
+T0057,11451,CHEMBL3717,Hepatocyte growth factor receptor,P08581,0
+T0058,11569,CHEMBL3290,Ephrin type-B receptor 2,P29323,1
+T0059,11622,CHEMBL2801,CaM kinase II delta,Q13557,1
+T0060,11626,CHEMBL3116,Cyclin-dependent kinase 9,P50750,1
+T0061,11629,CHEMBL2543,Casein kinase I gamma 2,P78368,0
+T0062,11635,CHEMBL299,Protein kinase C alpha,P17252,1
+T0063,11636,CHEMBL3045,Protein kinase C beta,P05771,1
+T0064,11637,CHEMBL3384,Protein kinase N1,Q16512,1
+T0065,11638,CHEMBL4040,MAP kinase ERK2,P28482,1
+T0066,11639,CHEMBL3385,MAP kinase ERK1,P27361,1
+T0067,11678,CHEMBL301,Cyclin-dependent kinase 2,P24941,1
+T0068,11720,CHEMBL2793,Casein kinase I alpha,P48729,0
+T0069,11755,CHEMBL1841,Tyrosine-protein kinase FYN,P06241,1
+T0070,11785,CHEMBL3234,Tyrosine-protein kinase HCK,P08631,1
+T0071,11842,CHEMBL3905,Tyrosine-protein kinase Lyn,P07948,1
+T0072,11870,CHEMBL2708,Mitogen-activated protein kinase kinase kinase 11,Q16584,1
+T0073,11902,CHEMBL2815,Nerve growth factor receptor Trk-A,P04629,0
+T0074,11969,CHEMBL4101,cAMP-dependent protein kinase alpha-catalytic subunit,P17612,1
+T0075,11970,CHEMBL2743,"cAMP-dependent protein kinase, gamma catalytic subunit",P22612,0
+T0076,12071,CHEMBL308,Cyclin-dependent kinase 1,P06493,1
+T0077,12090,CHEMBL2292,Dual-specificity tyrosine-phosphorylation regulated kinase 1A,Q13627,1
+T0078,12247,CHEMBL2996,Protein kinase C delta,Q05655,1
+T0079,12261,CHEMBL2276,c-Jun N-terminal kinase 1,P45983,1
+T0080,12276,CHEMBL3956,Mitogen-activated protein kinase kinase kinase 1,Q13233,1
+T0081,12665,CHEMBL3920,Protein kinase C theta,Q04759,0
+T0082,12666,CHEMBL4282,Serine/threonine-protein kinase AKT,P31749,1
+T0083,12670,CHEMBL1974,Tyrosine-protein kinase receptor FLT3,P36888,1
+T0084,12694,CHEMBL3553,Tyrosine-protein kinase TYK2,P29597,1
+T0085,12724,CHEMBL2345,Ribosomal protein S6 kinase alpha 3,P51812,1
+T0086,12735,CHEMBL2349,Phosphorylase kinase gamma subunit 2,P15735,1
+T0087,12780,CHEMBL4070,Casein kinase II alpha (prime),P19784,1
+T0088,12828,CHEMBL4442,Cyclin-dependent kinase 3,Q00526,0
+T0089,12829,CHEMBL3055,Cyclin-dependent kinase 7,P50613,1
+T0090,12915,CHEMBL3529,Inhibitor of nuclear factor kappa B kinase epsilon subunit,Q14164,1
+T0091,12944,CHEMBL4501,Ribosomal protein S6 kinase 1,P23443,0
+T0092,12946,CHEMBL331,Cyclin-dependent kinase 4,P11802,1
+T0093,12947,CHEMBL4036,Cyclin-dependent kinase 5,Q00535,1
+T0094,12959,CHEMBL4627,Myosin light chain kinase,Q32MK0,0
+T0095,12967,CHEMBL4630,Serine/threonine-protein kinase Chk1,O14757,1
+T0096,13004,CHEMBL4439,TGF-beta receptor type I,P36897,1
+T0097,18033,CHEMBL2073,Tyrosine-protein kinase YES,P07947,1
+T0098,19623,CHEMBL3357,Interleukin-1 receptor-associated kinase 1,P51617,1
+T0099,19639,CHEMBL3778,Interleukin-1 receptor-associated kinase 4,Q9NWZ3,1
+T0100,20007,CHEMBL3886,Mixed lineage kinase 7,Q9NYL2,1
+T0101,20014,CHEMBL4722,Serine/threonine-protein kinase Aurora-A,O14965,1
+T0102,20020,CHEMBL4355,Serine/threonine-protein kinase GAK,O14976,0
+T0103,20025,CHEMBL5014,Serine/threonine-protein kinase RIPK2,O43353,1
+T0104,20139,CHEMBL5024,Serine-protein kinase ATR,Q13535,0
+T0105,30000,CHEMBL3830,Adaptor-associated kinase,Q2M2I8,1
+T0106,30001,CHEMBL3831,MAP/microtubule affinity-regulating kinase 2,Q7KZI7,1
+T0107,30002,CHEMBL3829,CaM kinase II gamma,Q13555,1
+T0108,30003,CHEMBL3788,Serine/threonine-protein kinase PLK4,O00444,1
+T0109,30004,CHEMBL3938,Serine/threonine-protein kinase 16,O75716,1
+T0110,30006,CHEMBL3981,Serine/threonine-protein kinase 10,O94804,1
+T0111,30007,CHEMBL3982,Tyrosine-protein kinase FER,P16591,1
+T0112,30008,CHEMBL2068,Ephrin type-A receptor 2,P29317,1
+T0113,30011,CHEMBL3983,Dual specificity protein kinase TTK,P33981,0
+T0114,30012,CHEMBL4223,Tyrosine-protein kinase FRK,P42685,1
+T0115,30013,CHEMBL4224,Dual specificty protein kinase CLK1,P49759,0
+T0116,30014,CHEMBL4225,Dual specificity protein kinase CLK2,P49760,0
+T0117,30015,CHEMBL4226,Dual specificity protein kinase CLK3,P49761,0
+T0118,30017,CHEMBL3835,Serine/threonine-protein kinase NEK2,P51955,1
+T0119,30018,CHEMBL3836,LIM domain kinase 1,P53667,1
+T0120,30019,CHEMBL3987,Ephrin type-A receptor 5,P54756,1
+T0121,30021,CHEMBL3988,Ephrin type-A receptor 4,P54764,1
+T0122,30022,CHEMBL4597,Serine/threonine-protein kinase PCTAIRE-1,Q00536,1
+T0123,30023,CHEMBL4599,Tyrosine kinase non-receptor protein 2,Q07912,1
+T0124,30024,CHEMBL4598,Serine/threonine-protein kinase MST1,Q13043,1
+T0125,30026,CHEMBL4601,Tyrosine-protein kinase BRK,Q13882,1
+T0126,30027,CHEMBL4602,Ephrin type-A receptor 7,Q15375,0
+T0127,30030,CHEMBL5257,Serine/threonine-protein kinase NEK9,Q8TD19,1
+T0128,30031,CHEMBL5258,CaM kinase I gamma,Q96NX5,0
+T0129,30032,CHEMBL5284,CaM-kinase kinase beta,Q96RR4,1
+T0130,30033,CHEMBL3984,Tyrosine- and threonine-specific cdc2-inhibitory kinase,Q99640,1
+T0131,30034,CHEMBL5285,Mitogen-activated protein kinase kinase kinase 5,Q99683,1
+T0132,30035,CHEMBL4202,Serine/threonine-protein kinase 2,Q9H2G2,1
+T0133,30036,CHEMBL4203,Dual specificity protein kinase CLK4,Q9HAZ1,0
+T0134,30040,CHEMBL4311,Serine/threonine-protein kinase PAK6,Q9NQU5,0
+T0135,30042,CHEMBL4522,BMP-2-inducible protein kinase,Q9NSY1,1
+T0136,30043,CHEMBL4523,Serine/threonine-protein kinase PIM2,Q9P1W9,0
+T0137,30047,CHEMBL4527,TRAF2- and NCK-interacting kinase,Q9UKE5,0
+T0138,30048,CHEMBL4851,Serine/threonine-protein kinase 38-like,Q9Y2H1,0
+T0139,30049,CHEMBL4852,Mitogen-activated protein kinase kinase kinase kinase 5,Q9Y4K4,1
+T0140,30050,CHEMBL4853,Mitogen-activated protein kinase kinase kinase 4,Q9Y6R4,1
+T0141,100069,CHEMBL5455,Tyrosine-protein kinase FES,P07332,1
+T0142,100071,CHEMBL4487,Serine/threonine-protein kinase PAK 2,Q13177,0
+T0143,100075,CHEMBL4267,TGF-beta receptor type II,P37173,0
+T0144,100077,CHEMBL5443,Cell division cycle 7-related protein kinase,O00311,0
+T0145,100079,CHEMBL2041,Tyrosine-protein kinase receptor RET,P07949,1
+T0146,100080,CHEMBL4482,Serine/threonine-protein kinase PAK 4,O96013,1
+T0147,100097,CHEMBL5251,Tyrosine-protein kinase BTK,Q06187,1
+T0148,100098,CHEMBL5491,Serine/threonine-protein kinase WEE1,P30291,1
+T0149,100104,CHEMBL5247,Serine/threonine-protein kinase ILK-1,Q13418,0
+T0150,100126,CHEMBL5145,Serine/threonine-protein kinase B-raf,P15056,1
+T0151,100127,CHEMBL4454,Tyrosine-protein kinase FGR,P09769,0
+T0152,100128,CHEMBL5146,Breakpoint cluster region protein,P11274,1
+T0153,100129,CHEMBL5147,Ephrin type-B receptor 4,P54760,1
+T0154,100140,CHEMBL5600,Serine/threonine-protein kinase c-TAK1,P27448,1
+T0155,100415,CHEMBL4900,Serine/threonine-protein kinase D2,Q9BZL6,1
+T0156,100416,CHEMBL4901,Ephrin type-B receptor 3,P54753,1
+T0157,100417,CHEMBL4247,ALK tyrosine kinase receptor,Q9UM73,0
+T0158,100418,CHEMBL4246,Tyrosine-protein kinase TEC,P42680,1
+T0159,100833,CHEMBL5198,Mitogen-activated protein kinase 15,Q8TD08,1
+T0160,100834,CHEMBL4670,MAP kinase-activated protein kinase 3,Q16644,0
+T0161,100836,CHEMBL4849,Serine/threonine-protein kinase NEK7,Q8TDX7,0
+T0162,100845,CHEMBL4516,Serine/threonine-protein kinase MRCK-A,Q5VT25,0
+T0163,100854,CHEMBL4578,Maternal embryonic leucine zipper kinase,Q14680,1
+T0164,100856,CHEMBL5408,Serine/threonine-protein kinase TBK1,Q9UHD2,1
+T0165,100907,CHEMBL5275,Bone morphogenetic protein receptor type-1A,P36894,1
+T0166,100908,CHEMBL5310,Activin receptor type-1B,P36896,1
+T0167,100909,CHEMBL5311,Serine/threonine-protein kinase receptor R3,P37023,0
+T0168,100914,CHEMBL5316,Serine/threonine-protein kinase PCTAIRE-3,Q07002,0
+T0169,100917,CHEMBL5319,Epithelial discoidin domain-containing receptor 1,Q08345,1
+T0170,100931,CHEMBL5364,Serine/threonine protein kinase NLK,Q9UBE8,0
+T0171,100947,CHEMBL5330,Mitogen-activated protein kinase kinase kinase kinase 2,Q12851,1
+T0172,100948,CHEMBL5331,Proto-oncogene tyrosine-protein kinase MER,Q12866,0
+T0173,100949,CHEMBL5332,Mitogen-activated protein kinase 7,Q13164,0
+T0174,100951,CHEMBL5334,Non-receptor tyrosine-protein kinase TNK1,Q13470,1
+T0175,100992,CHEMBL5466,Activin receptor type-2B,Q13705,0
+T0176,100993,CHEMBL5467,Bone morphogenetic protein receptor type-2,Q13873,1
+T0177,100995,CHEMBL5469,Protein tyrosine kinase 2 beta,Q14289,1
+T0178,101014,CHEMBL5543,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,Q9Y463,0
+T0179,101030,CHEMBL5604,Dual specificity testis-specific protein kinase 1,Q15569,0
+T0180,101032,CHEMBL5606,Serine/threonine-protein kinase 11,Q15831,0
+T0181,101041,CHEMBL5615,Serine/threonine-protein kinase MRCK gamma,Q6DT37,0
+T0182,101048,CHEMBL5047,Serine/threonine-protein kinase ULK3,Q6PHR2,1
+T0183,101053,CHEMBL5052,Serine/threonine-protein kinase MRCK beta,Q9Y5S2,1
+T0184,101055,CHEMBL5081,Interleukin-1 receptor-associated kinase 3,Q9Y616,1
+T0185,101056,CHEMBL5082,Serine/threonine-protein kinase 24,Q9Y6E0,0
+T0186,101058,CHEMBL5084,Casein kinase I isoform gamma-3,Q9Y6M4,1
+T0187,101079,CHEMBL5122,Discoidin domain-containing receptor 2,Q16832,1
+T0188,101131,CHEMBL5261,Serine/threonine-protein kinase TAO1,Q7L7X3,1
+T0189,101188,CHEMBL5432,Mitogen-activated protein kinase kinase kinase kinase 3,Q8IVH8,1
+T0190,101204,CHEMBL5476,Bone morphogenetic protein receptor type-1B,O00238,0
+T0191,101220,CHEMBL5518,Misshapen-like kinase 1,Q8N4C8,0
+T0192,101229,CHEMBL5550,"Chaperone activity of bc1 complex-like, mitochondrial",Q8NI60,1
+T0193,101239,CHEMBL5579,Citron Rho-interacting kinase,O14578,1
+T0194,101312,CHEMBL5749,Mitogen-activated protein kinase kinase kinase kinase 1,Q92918,0
+T0195,101317,CHEMBL5754,MAP/microtubule affinity-regulating kinase 4,Q96L34,0
+T0196,101340,CHEMBL5810,Ephrin type-A receptor 1,P21709,0
+T0197,101348,CHEMBL5818,Serine/threonine-protein kinase PRKX,P51817,0
+T0198,101359,CHEMBL5855,Serine/threonine-protein kinase Nek1,Q96PY6,1
+T0199,101386,CHEMBL5932,LIM domain kinase 2,P53671,1
+T0200,101399,CHEMBL5970,Mitogen-activated protein kinase kinase kinase 3,Q99759,1
+T0201,101411,CHEMBL6006,Serine/threonine-protein kinase ULK1,O75385,0
+T0202,101464,CHEMBL6166,Mitogen-activated protein kinase kinase kinase kinase 4,O95819,0
+T0203,101465,CHEMBL6167,Serine/threonine-protein kinase LATS1,O95835,1
+T0204,101503,CHEMBL5698,NUAK family SNF1-like kinase 2,Q9H093,0
+T0205,101504,CHEMBL5699,Serine/threonine-protein kinase SIK2,Q9H0K1,1
+T0206,101506,CHEMBL5701,Serine/threonine-protein kinase TAO3,Q9H2K8,1
+T0207,101553,CHEMBL5790,Serine/threonine-protein kinase PCTAIRE-2,Q00537,0
+T0208,101598,CHEMBL5903,Activin receptor type-1,Q04771,1
+T0209,101613,CHEMBL5941,Serine/threonine-protein kinase MST4,Q9P289,0
+T0210,102399,CHEMBL6054,PAS domain-containing serine/threonine-protein kinase,Q96RG2,0
+T0211,102421,CHEMBL5679,Serine/threonine-protein kinase Nek3,P51956,1
+T0212,102447,CHEMBL6144,G protein-coupled receptor kinase 6,P43250,0
+T0213,102667,CHEMBL6029,Eukaryotic translation initiation factor 2-alpha kinase 1,Q9BQI3,1
+T0214,102711,CHEMBL5914,Mitogen-activated protein kinase kinase kinase 2,Q9Y2U5,1
+T0215,102770,CHEMBL6149,Serine/threonine-protein kinase SIK3,Q9Y2K2,0
+T0216,103095,CHEMBL1075155,Serine/threonine-protein kinase 38,Q15208,0
+T0217,103140,CHEMBL1075195,Serine/threonine-protein kinase TAO2,Q9UL54,1
+T0218,103441,CHEMBL1163112,Cyclin-dependent kinase-like 5,O76039,0
+T0219,103452,CHEMBL1163123,Mitogen-activated protein kinase kinase kinase 6,O95382,0
+T0220,103455,CHEMBL1163126,Serine/threonine-protein kinase ICK,Q9UPZ9,0
+T0221,103465,CHEMBL1169596,Serine/threonine-protein kinase A-Raf,P10398,0
+T0222,104146,CHEMBL1772932,Mitotic checkpoint serine/threonine-protein kinase BUB1,O43683,0
+T0223,104279,CHEMBL1795199,Receptor-interacting serine/threonine-protein kinase 3,Q9Y572,1
+T0224,104600,CHEMBL2069163,Dual specificity testis-specific protein kinase 2,Q96S53,0
+T0225,109747,CHEMBL3559692,Cyclin-dependent kinase 12,Q9NYV4,1
+T0226,109903,CHEMBL3627581,Serine/threonine-protein kinase N3,Q6P5Z2,0

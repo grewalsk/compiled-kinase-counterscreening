@@ -1,0 +1,54 @@
+{
+  "counts": {
+    "common_targets": 146,
+    "eligible_compounds": 111,
+    "gold_candidate_rows": 16034,
+    "primary_liability_positive_compounds": 63,
+    "sensitivity_liability_positive_compounds": 53,
+    "source_panel_molecules": 242,
+    "source_panel_rows": 49603,
+    "source_panel_targets": 226
+  },
+  "outputs": {
+    "activity_provenance.csv.gz": {
+      "bytes": 172860,
+      "sha256": "2d34ca022243aab50aa8db173b462ac7b9d0a463559e2600c4e6d196137f3c77"
+    },
+    "cases.jsonl": {
+      "bytes": 153139,
+      "sha256": "ab1984c1670eb2ddf210a548de99874b9c27bd6be0fd03cdc978d0f2f61788c5"
+    },
+    "compound_mapping.csv": {
+      "bytes": 12236,
+      "sha256": "b7c134cafa78fee8bd511d186ffabe4cee129c994b0e7a1db1fb76da46a69f8c"
+    },
+    "gold.csv.gz": {
+      "bytes": 86616,
+      "sha256": "24e12def7cbe7206065254728eda88f54f57f025feafa02d1cbe826d84495aae"
+    },
+    "mechanism_provenance.csv": {
+      "bytes": 15846,
+      "sha256": "a599757d70614a5d475183449311d8a63c25d34b3bb68cd8399f0b0bd8eccdcf"
+    },
+    "target_mapping.csv": {
+      "bytes": 15437,
+      "sha256": "ba246297d96fc7c5aa1d4c201a2fea71686770e30c96b4a872e4cf0d8576be29"
+    }
+  },
+  "parameters": {
+    "anchor_max_nm": 1000.0,
+    "primary_delta": 1.0,
+    "sensitivity_delta": 0.5
+  },
+  "source": {
+    "database_path": "../selective_until_tested/data/raw/chembl_30/chembl_30_sqlite/chembl_30.db",
+    "database_size_bytes": 22373666816,
+    "database_version": {
+      "comments": "ChEMBL Release 30",
+      "creation_date": "2022-02-22 00:00:00.000000",
+      "name": "ChEMBL_30"
+    },
+    "document_chembl_id": "CHEMBL3991601",
+    "license": "CC BY-SA 3.0"
+  }
+}

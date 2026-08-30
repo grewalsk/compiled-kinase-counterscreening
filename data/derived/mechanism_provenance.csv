@@ -1,0 +1,222 @@
+compound_key,target_key,mec_id,action_type,mechanism_of_action
+C0001,T0083,511,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0001,T0145,1518,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0002,T0022,5289,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+C0002,T0060,5290,INHIBITOR,Cyclin-dependent kinase 9 inhibitor
+C0002,T0067,5287,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0002,T0076,5291,INHIBITOR,Cyclin-dependent kinase 1 inhibitor
+C0002,T0089,5292,INHIBITOR,Cyclin-dependent kinase 7 inhibitor
+C0002,T0092,5288,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0003,T0002,245,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0004,T0020,683,INHIBITOR,Tyrosine-protein kinase SRC inhibitor
+C0004,T0125,984,INHIBITOR,Tyrosine-protein kinase BRK inhibitor
+C0004,T0145,1519,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0005,T0002,5277,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0006,T0001,302,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0006,T0020,682,INHIBITOR,Tyrosine-protein kinase SRC inhibitor
+C0006,T0070,926,INHIBITOR,Tyrosine-protein kinase HCK inhibitor
+C0006,T0071,940,INHIBITOR,Tyrosine-protein kinase Lyn inhibitor
+C0007,T0060,4166,INHIBITOR,Cyclin-dependent kinase 9 inhibitor
+C0007,T0067,4164,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0007,T0089,4165,INHIBITOR,Cyclin-dependent kinase 7 inhibitor
+C0008,T0002,244,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0009,T0001,304,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0009,T0004,418,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+C0009,T0006,451,INHIBITOR,Stem cell growth factor receptor inhibitor
+C0010,T0063,5300,INHIBITOR,Protein kinase C beta inhibitor
+C0011,T0004,4769,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+C0011,T0083,4767,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0012,T0004,417,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+C0012,T0083,510,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0012,T0145,1517,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0012,T0150,994,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+C0013,T0002,5285,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0013,T0002,7422,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0014,T0001,4738,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0014,T0071,4739,INHIBITOR,Tyrosine-protein kinase Lyn inhibitor
+C0015,T0067,4341,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0015,T0076,4340,INHIBITOR,Cyclin-dependent kinase 1 inhibitor
+C0015,T0092,4342,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0016,T0001,5254,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0016,T0020,5255,INHIBITOR,Tyrosine-protein kinase SRC inhibitor
+C0017,T0001,301,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0017,T0004,416,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+C0017,T0006,446,INHIBITOR,Stem cell growth factor receptor inhibitor
+C0017,T0112,854,INHIBITOR,Ephrin type-A receptor 2 inhibitor
+C0018,T0083,5245,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0019,T0001,300,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0020,T0101,4287,INHIBITOR,Serine/threonine-protein kinase Aurora-A inhibitor
+C0021,T0004,4833,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+C0021,T0016,4831,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+C0021,T0153,4830,INHIBITOR,Ephrin type-B receptor 4 inhibitor
+C0022,T0045,4783,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0022,T0056,4782,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0023,T0057,4676,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0024,T0057,4107,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0025,T0001,4633,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0025,T0026,4635,INHIBITOR,Serine/threonine-protein kinase Aurora-B inhibitor
+C0025,T0083,4636,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0025,T0101,4634,INHIBITOR,Serine/threonine-protein kinase Aurora-A inhibitor
+C0026,T0083,5337,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0027,T0009,4819,INHIBITOR,MAP kinase p38 alpha inhibitor
+C0028,T0101,5307,INHIBITOR,Serine/threonine-protein kinase Aurora-A inhibitor
+C0029,T0026,4715,INHIBITOR,Serine/threonine-protein kinase Aurora-B inhibitor
+C0029,T0083,4718,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0029,T0101,4714,INHIBITOR,Serine/threonine-protein kinase Aurora-A inhibitor
+C0030,T0067,4793,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0030,T0073,4795,INHIBITOR,Nerve growth factor receptor Trk-A inhibitor
+C0030,T0076,4792,INHIBITOR,Cyclin-dependent kinase 1 inhibitor
+C0030,T0092,4794,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0031,T0022,4838,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+C0031,T0067,4836,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0031,T0092,4837,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0031,T0095,4839,INHIBITOR,Serine/threonine-protein kinase Chk1 inhibitor
+C0032,T0006,5434,INHIBITOR,Stem cell growth factor receptor inhibitor
+C0032,T0145,5435,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0033,T0003,4675,INHIBITOR,Insulin receptor inhibitor
+C0033,T0005,4674,INHIBITOR,Insulin-like growth factor I receptor inhibitor
+C0034,T0083,5249,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0034,T0145,5252,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0035,T0002,4611,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0036,T0073,5273,INHIBITOR,Nerve growth factor receptor Trk-A inhibitor
+C0036,T0083,5271,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0036,T0145,5276,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0037,T0057,955,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0037,T0157,973,INHIBITOR,ALK tyrosine kinase receptor inhibitor
+C0038,T0002,4198,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0039,T0002,4713,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0040,T0083,5314,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0041,T0009,4846,INHIBITOR,MAP kinase p38 alpha inhibitor
+C0042,T0009,4790,INHIBITOR,MAP kinase p38 alpha inhibitor
+C0043,T0007,5283,INHIBITOR,MAP kinase p38 beta inhibitor
+C0043,T0009,5282,INHIBITOR,MAP kinase p38 alpha inhibitor
+C0044,T0026,4220,INHIBITOR,Serine/threonine-protein kinase Aurora-B inhibitor
+C0045,T0003,5310,INHIBITOR,Insulin receptor inhibitor
+C0045,T0005,5309,INHIBITOR,Insulin-like growth factor I receptor inhibitor
+C0046,T0051,4312,INHIBITOR,Focal adhesion kinase 1 inhibitor
+C0047,T0002,2234,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0048,T0057,4728,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0048,T0083,4726,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0049,T0045,4661,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0049,T0056,4660,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0050,T0083,5326,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0050,T0083,7452,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0051,T0045,4648,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0051,T0056,4647,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0052,T0054,4686,INHIBITOR,c-Jun N-terminal kinase 2 inhibitor
+C0052,T0055,4687,INHIBITOR,c-Jun N-terminal kinase 3 inhibitor
+C0052,T0079,4685,INHIBITOR,c-Jun N-terminal kinase 1 inhibitor
+C0053,T0002,4386,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0054,T0045,4361,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0054,T0056,4360,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0055,T0045,4391,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0055,T0056,4390,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0056,T0002,4100,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0057,T0083,3891,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0058,T0001,4704,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0059,T0145,2432,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0059,T0157,2431,INHIBITOR,ALK tyrosine kinase receptor inhibitor
+C0060,T0037,934,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+C0060,T0039,936,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+C0061,T0147,2242,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+C0062,T0001,4255,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0062,T0026,4253,INHIBITOR,Serine/threonine-protein kinase Aurora-B inhibitor
+C0062,T0083,4254,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0062,T0101,4252,INHIBITOR,Serine/threonine-protein kinase Aurora-A inhibitor
+C0063,T0060,4401,INHIBITOR,Cyclin-dependent kinase 9 inhibitor
+C0063,T0067,4399,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0063,T0076,4398,INHIBITOR,Cyclin-dependent kinase 1 inhibitor
+C0063,T0083,4402,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0063,T0089,4400,INHIBITOR,Cyclin-dependent kinase 7 inhibitor
+C0064,T0001,303,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0064,T0007,962,INHIBITOR,MAP kinase p38 beta inhibitor
+C0064,T0016,951,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+C0064,T0073,8646,INHIBITOR,Nerve growth factor receptor Trk-A
+C0064,T0112,8645,INHIBITOR,Ephrin type-A receptor 2
+C0064,T0114,972,INHIBITOR,Tyrosine-protein kinase FRK inhibitor
+C0064,T0145,1516,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0064,T0150,993,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+C0064,T0187,991,INHIBITOR,Discoidin domain-containing receptor 2 inhibitor
+C0065,T0054,4689,INHIBITOR,c-Jun N-terminal kinase 2 inhibitor
+C0065,T0055,4690,INHIBITOR,c-Jun N-terminal kinase 3 inhibitor
+C0065,T0079,4688,INHIBITOR,c-Jun N-terminal kinase 1 inhibitor
+C0066,T0148,4642,INHIBITOR,Serine/threonine-protein kinase WEE1 inhibitor
+C0067,T0057,4317,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0068,T0150,992,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+C0069,T0002,4179,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0069,T0145,4180,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+C0069,T0150,4178,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+C0070,T0083,5329,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0071,T0095,4148,INHIBITOR,Serine/threonine-protein kinase Chk1 inhibitor
+C0072,T0004,4656,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+C0073,T0060,5306,INHIBITOR,Cyclin-dependent kinase 9 inhibitor
+C0073,T0067,5304,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0073,T0076,5303,INHIBITOR,Cyclin-dependent kinase 1 inhibitor
+C0073,T0093,5305,INHIBITOR,Cyclin-dependent kinase 5 inhibitor
+C0074,T0002,4625,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0075,T0057,5253,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0076,T0083,4696,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0077,T0045,4630,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0077,T0056,4629,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0078,T0002,5311,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0078,T0002,7415,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0079,T0057,4249,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0080,T0045,2423,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0080,T0045,5325,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0080,T0056,2422,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0080,T0056,5324,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0081,T0053,4279,INHIBITOR,Macrophage-stimulating protein receptor inhibitor
+C0081,T0057,4278,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0082,T0096,4754,INHIBITOR,TGF-beta receptor type I inhibitor
+C0083,T0095,4373,INHIBITOR,Serine/threonine-protein kinase Chk1 inhibitor
+C0084,T0002,4651,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0085,T0095,4756,INHIBITOR,Serine/threonine-protein kinase Chk1 inhibitor
+C0086,T0146,4314,INHIBITOR,Serine/threonine-protein kinase PAK 4 inhibitor
+C0087,T0051,4843,INHIBITOR,Focal adhesion kinase 1 inhibitor
+C0087,T0177,4844,INHIBITOR,Protein tyrosine kinase 2 beta inhibitor
+C0088,T0101,4276,INHIBITOR,Serine/threonine-protein kinase Aurora-A inhibitor
+C0089,T0045,4153,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0089,T0056,4152,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0090,T0045,5302,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+C0090,T0056,5301,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+C0091,T0057,4867,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0091,T0057,7763,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0092,T0022,4759,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+C0092,T0092,4758,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0093,T0150,5298,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+C0094,T0083,5110,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0094,T0083,7350,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0095,T0002,2424,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0095,T0002,5260,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0096,T0057,4865,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0096,T0057,7764,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+C0097,T0026,4392,INHIBITOR,Serine/threonine-protein kinase Aurora-B inhibitor
+C0098,T0065,4216,INHIBITOR,MAP kinase ERK2 inhibitor
+C0098,T0066,4215,INHIBITOR,MAP kinase ERK1 inhibitor
+C0099,T0002,4853,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0099,T0153,4852,INHIBITOR,Ephrin type-B receptor 4 inhibitor
+C0100,T0091,4263,INHIBITOR,Ribosomal protein S6 kinase 1 inhibitor
+C0101,T0060,4358,INHIBITOR,Cyclin-dependent kinase 9 inhibitor
+C0101,T0067,4354,INHIBITOR,Cyclin-dependent kinase 2 inhibitor
+C0101,T0076,4353,INHIBITOR,Cyclin-dependent kinase 1 inhibitor
+C0101,T0089,4357,INHIBITOR,Cyclin-dependent kinase 7 inhibitor
+C0101,T0092,4355,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0101,T0093,4356,INHIBITOR,Cyclin-dependent kinase 5 inhibitor
+C0102,T0001,4417,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+C0102,T0005,4418,INHIBITOR,Insulin-like growth factor I receptor inhibitor
+C0103,T0022,5297,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+C0103,T0022,6162,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+C0103,T0092,5296,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0103,T0092,6161,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+C0104,T0095,4311,INHIBITOR,Serine/threonine-protein kinase Chk1 inhibitor
+C0105,T0002,4694,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0106,T0002,4671,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+C0107,T0065,4680,INHIBITOR,MAP kinase ERK2 inhibitor
+C0107,T0066,4679,INHIBITOR,MAP kinase ERK1 inhibitor
+C0108,T0083,4797,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0108,T0083,7426,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+C0109,T0016,8589,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+C0110,T0009,4118,INHIBITOR,MAP kinase p38 alpha inhibitor
+C0111,T0035,4087,INHIBITOR,Tyrosine-protein kinase SYK inhibitor
+C0111,T0037,4088,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+C0111,T0084,4090,INHIBITOR,Tyrosine-protein kinase TYK2 inhibitor
