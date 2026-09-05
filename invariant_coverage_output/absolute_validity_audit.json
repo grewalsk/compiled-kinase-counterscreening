@@ -1,0 +1,576 @@
+{
+  "absolute_checks": {
+    "all_absolute_checks_pass": false,
+    "invariant_coverage_retains_75_percent_vs_original_marginal": false,
+    "pkis2_gt80_reversal_eliminated_vs_original_marginal": false,
+    "pkis2_standard_reversal_eliminated_vs_original_marginal": false,
+    "selective_invariant_large_delays_vs_original_marginal_at_most_20": false,
+    "selective_invariant_retains_half_vs_original_marginal": true,
+    "selective_model_beats_original_coverage_on_chemotype": false
+  },
+  "comparisons": {
+    "klaeger_delta_0_5": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.009909909909909908,
+          0.0518018018018018
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.01936936936936937,
+        "large_advance_ge_10": 3,
+        "large_delay_ge_10": 1,
+        "losses": 12,
+        "mean_assays_earlier": 0.38738738738738737,
+        "n": 111,
+        "permutation_p_two_sided": 0.23513764862351377,
+        "ties": 82,
+        "wins": 17
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.01036036036036036,
+          0.007657657657657659
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.0013513513513513501,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 9,
+        "mean_assays_earlier": -0.02702702702702703,
+        "n": 111,
+        "permutation_p_two_sided": 0.8529614703852961,
+        "ties": 93,
+        "wins": 9
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.046396396396396394,
+          -0.004054054054054054
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.022972972972972974,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 1,
+        "losses": 12,
+        "mean_assays_earlier": -0.4594594594594595,
+        "n": 111,
+        "permutation_p_two_sided": 0.03006969930300697,
+        "ties": 94,
+        "wins": 5
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          -0.023873873873873873,
+          0.02657657657657658
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 1.50030138462859e-18,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 1,
+        "losses": 13,
+        "mean_assays_earlier": 0.0,
+        "n": 111,
+        "permutation_p_two_sided": 1.0,
+        "ties": 86,
+        "wins": 12
+      }
+    },
+    "klaeger_leave10_nearest": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.009459459459459462,
+          0.04144144144144144
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.016666666666666663,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 2,
+        "losses": 6,
+        "mean_assays_earlier": 0.3333333333333333,
+        "n": 111,
+        "permutation_p_two_sided": 0.22881771182288177,
+        "ties": 84,
+        "wins": 21
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.003153153153153154,
+          0.006756756756756757
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.0018018018018017997,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 5,
+        "mean_assays_earlier": 0.036036036036036036,
+        "n": 111,
+        "permutation_p_two_sided": 0.6078739212607874,
+        "ties": 99,
+        "wins": 7
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.02027027027027027,
+          0.015765765765765764
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.0022522522522522522,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 8,
+        "mean_assays_earlier": -0.04504504504504504,
+        "n": 111,
+        "permutation_p_two_sided": 0.8510614893851062,
+        "ties": 98,
+        "wins": 5
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          0.002702702702702702,
+          0.03738738738738739
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.02072072072072072,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 1,
+        "losses": 3,
+        "mean_assays_earlier": 0.4144144144144144,
+        "n": 111,
+        "permutation_p_two_sided": 0.01959980400195998,
+        "ties": 89,
+        "wins": 19
+      }
+    },
+    "klaeger_primary_standard": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.022522522522522518,
+          0.023873873873873876
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.0018018018018018025,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 13,
+        "mean_assays_earlier": 0.036036036036036036,
+        "n": 111,
+        "permutation_p_two_sided": 0.911290887091129,
+        "ties": 77,
+        "wins": 21
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.03378378378378378,
+          -0.007657657657657662
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.019369369369369366,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 17,
+        "mean_assays_earlier": -0.38738738738738737,
+        "n": 111,
+        "permutation_p_two_sided": 0.0004599954000459995,
+        "ties": 90,
+        "wins": 4
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.018468468468468467,
+          0.015765765765765764
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.0022522522522522514,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 11,
+        "mean_assays_earlier": -0.04504504504504504,
+        "n": 111,
+        "permutation_p_two_sided": 0.8525814741852581,
+        "ties": 93,
+        "wins": 7
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          -0.025225225225225224,
+          0.021621621621621612
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.0013513513513513506,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 13,
+        "mean_assays_earlier": -0.02702702702702703,
+        "n": 111,
+        "permutation_p_two_sided": 0.9425205747942521,
+        "ties": 78,
+        "wins": 20
+      }
+    },
+    "klaeger_scaffold_exclusion": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.021621621621621626,
+          0.02432432432432432
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.0013513513513513525,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 14,
+        "mean_assays_earlier": 0.02702702702702703,
+        "n": 111,
+        "permutation_p_two_sided": 0.9430905690943091,
+        "ties": 76,
+        "wins": 21
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.03378378378378378,
+          -0.008108108108108107
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.019369369369369366,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 17,
+        "mean_assays_earlier": -0.38738738738738737,
+        "n": 111,
+        "permutation_p_two_sided": 0.0006099939000609993,
+        "ties": 90,
+        "wins": 4
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.020270270270270268,
+          0.01576576576576576
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.0031531531531531517,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 11,
+        "mean_assays_earlier": -0.06306306306306306,
+        "n": 111,
+        "permutation_p_two_sided": 0.7784222157778422,
+        "ties": 93,
+        "wins": 7
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          -0.025225225225225224,
+          0.020720720720720714
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.0018018018018018003,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 14,
+        "mean_assays_earlier": -0.036036036036036036,
+        "n": 111,
+        "permutation_p_two_sided": 0.913140868591314,
+        "ties": 77,
+        "wins": 20
+      }
+    },
+    "pkis2_gt80_sensitivity": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.09422070312500001,
+          -0.05679687500000001
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.075546875,
+        "large_advance_ge_10": 11,
+        "large_delay_ge_10": 49,
+        "losses": 252,
+        "mean_assays_earlier": -1.5109375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 328,
+        "wins": 60
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.18054687499999997,
+          -0.13468750000000002
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.15726562500000002,
+        "large_advance_ge_10": 3,
+        "large_delay_ge_10": 94,
+        "losses": 253,
+        "mean_assays_earlier": -3.1453125,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 358,
+        "wins": 29
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.059140625,
+          -0.029687500000000006
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.04421875000000001,
+        "large_advance_ge_10": 9,
+        "large_delay_ge_10": 21,
+        "losses": 224,
+        "mean_assays_earlier": -0.884375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 363,
+        "wins": 53
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          -0.0884375,
+          -0.054296875
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.071015625,
+        "large_advance_ge_10": 9,
+        "large_delay_ge_10": 43,
+        "losses": 249,
+        "mean_assays_earlier": -1.4203125,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 336,
+        "wins": 55
+      }
+    },
+    "pkis2_gt90_chemotype": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          0.010546874999999994,
+          0.05125
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.030937499999999996,
+        "large_advance_ge_10": 44,
+        "large_delay_ge_10": 29,
+        "losses": 90,
+        "mean_assays_earlier": 0.61875,
+        "n": 640,
+        "permutation_p_two_sided": 0.003009969900300997,
+        "ties": 374,
+        "wins": 176
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.063671875,
+          -0.036484375
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.049609375,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 25,
+        "losses": 105,
+        "mean_assays_earlier": -0.9921875,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 519,
+        "wins": 16
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.0378125,
+          -0.015703124999999995
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.026640624999999994,
+        "large_advance_ge_10": 5,
+        "large_delay_ge_10": 12,
+        "losses": 113,
+        "mean_assays_earlier": -0.5328125,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 480,
+        "wins": 47
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          0.007265624999999998,
+          0.046484374999999994
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.027031249999999996,
+        "large_advance_ge_10": 41,
+        "large_delay_ge_10": 26,
+        "losses": 87,
+        "mean_assays_earlier": 0.540625,
+        "n": 640,
+        "permutation_p_two_sided": 0.006539934600653993,
+        "ties": 401,
+        "wins": 152
+      }
+    },
+    "pkis2_gt90_scaffold": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.07476757812500001,
+          -0.034296875000000004
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.05437499999999999,
+        "large_advance_ge_10": 19,
+        "large_delay_ge_10": 50,
+        "losses": 208,
+        "mean_assays_earlier": -1.0875,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 340,
+        "wins": 92
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.159609375,
+          -0.11625
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.137578125,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 82,
+        "losses": 231,
+        "mean_assays_earlier": -2.7515625,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 381,
+        "wins": 28
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.06343750000000001,
+          -0.033046875
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.048203125,
+        "large_advance_ge_10": 12,
+        "large_delay_ge_10": 26,
+        "losses": 200,
+        "mean_assays_earlier": -0.9640625,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 384,
+        "wins": 56
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          -0.068830078125,
+          -0.03265625
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.050703125,
+        "large_advance_ge_10": 15,
+        "large_delay_ge_10": 43,
+        "losses": 203,
+        "mean_assays_earlier": -1.0140625,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 354,
+        "wins": 83
+      }
+    },
+    "pkis2_gt90_standard": {
+      "invariant_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.090625,
+          -0.051953125
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.07109375,
+        "large_advance_ge_10": 16,
+        "large_delay_ge_10": 49,
+        "losses": 247,
+        "mean_assays_earlier": -1.421875,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 329,
+        "wins": 64
+      },
+      "invariant_marginal_minus_original_marginal": {
+        "ci95": [
+          -0.17328125,
+          -0.12742187500000002
+        ],
+        "comparison": "INVARIANT_MARGINAL - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.1503125,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 85,
+        "losses": 251,
+        "mean_assays_earlier": -3.00625,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 359,
+        "wins": 30
+      },
+      "selective_invariant_minus_original_coverage": {
+        "ci95": [
+          -0.065,
+          -0.037578125000000004
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.051328125,
+        "large_advance_ge_10": 7,
+        "large_delay_ge_10": 16,
+        "losses": 228,
+        "mean_assays_earlier": -1.0265625,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 364,
+        "wins": 48
+      },
+      "selective_invariant_minus_original_marginal": {
+        "ci95": [
+          -0.0834375,
+          -0.048281250000000005
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.06593750000000001,
+        "large_advance_ge_10": 13,
+        "large_delay_ge_10": 40,
+        "losses": 242,
+        "mean_assays_earlier": -1.31875,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 339,
+        "wins": 59
+      }
+    }
+  },
+  "interpretation_rule": "Do not describe the invariant model as an absolute improvement when it only improves relative to a degraded matched comparator.",
+  "reason": "The frozen within-invariant-family contrast can increase if invariant weighting harms the invariant marginal baseline. Absolute comparisons are required before interpreting model improvement.",
+  "status": "POST_RUN_VALIDITY_AUDIT"
+}

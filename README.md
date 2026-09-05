@@ -2,6 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/compiled_profile_coverage_colab.ipynb)
 
+[![Open invariant-model audit in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/invariant_coverage_colab.ipynb)
+
 Reproducible CPU-only benchmark of sequential kinase counter-screen selection.
 The scientific task is retrospective: given a compound structure, documented
 direct kinase targets, and a limited assay budget, rank which other kinase in
@@ -38,6 +40,22 @@ workbook does not provide complete per-compound intended-target annotations.
 
 The full method run uses no GPU and no paid API. Use `SMOKE_TEST=True` only to
 check execution; smoke-test estimates are not paper results.
+
+## Exploratory invariant-model audit
+
+`notebooks/invariant_coverage_colab.ipynb` evaluates similarity-stratified
+group-averaged weights and a reference-only pseudo-holdout gate on all eight
+existing conditions. Upload `invariant_coverage_colab_bundle.zip` when
+prompted. The complete CPU run takes about five minutes after dependency
+installation and costs USD 0.
+
+This experiment is a documented negative result. Its frozen within-family
+criteria passed, but an absolute-baseline audit showed that group averaging
+damaged the marginal comparator and did not outperform the original coverage
+model. Read `INVARIANT_COVERAGE_RESULTS.md` before interpreting the frozen
+success flags. The original prospective freeze and the post-run validity audit
+have separate SHA-256 manifests, and `invariant_coverage_results_full.zip`
+contains the complete code, results, diagnostics, and report.
 
 ## Fast path: Google Colab
 

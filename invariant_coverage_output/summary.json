@@ -1,0 +1,690 @@
+{
+  "comparisons": {
+    "klaeger_delta_0_5": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          -0.00855855855855856,
+          0.05315315315315315
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.02072072072072072,
+        "large_advance_ge_10": 3,
+        "large_delay_ge_10": 1,
+        "losses": 11,
+        "mean_assays_earlier": 0.4144144144144144,
+        "n": 111,
+        "permutation_p_two_sided": 0.2078579214207858,
+        "ties": 88,
+        "wins": 12
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.012612612612612612,
+          0.004954954954954954
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.003603603603603605,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 10,
+        "mean_assays_earlier": -0.07207207207207207,
+        "n": 111,
+        "permutation_p_two_sided": 0.4944350556494435,
+        "ties": 96,
+        "wins": 5
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.008558558558558558,
+          0.05630630630630631
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.022972972972972974,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 1,
+        "losses": 11,
+        "mean_assays_earlier": 0.4594594594594595,
+        "n": 111,
+        "permutation_p_two_sided": 0.1774782252177478,
+        "ties": 84,
+        "wins": 16
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          -0.02252252252252252,
+          0.02702702702702703
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.0013513513513513516,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 1,
+        "losses": 10,
+        "mean_assays_earlier": 0.02702702702702703,
+        "n": 111,
+        "permutation_p_two_sided": 0.9460605393946061,
+        "ties": 94,
+        "wins": 7
+      }
+    },
+    "klaeger_leave10_nearest": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          -0.010810810810810808,
+          0.039189189189189184
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.014864864864864864,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 2,
+        "losses": 6,
+        "mean_assays_earlier": 0.2972972972972973,
+        "n": 111,
+        "permutation_p_two_sided": 0.26226737732622674,
+        "ties": 84,
+        "wins": 21
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.01756756756756757,
+          5.001004615428633e-19
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.006306306306306306,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 1,
+        "losses": 5,
+        "mean_assays_earlier": -0.12612612612612611,
+        "n": 111,
+        "permutation_p_two_sided": 0.1897181028189718,
+        "ties": 105,
+        "wins": 1
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.004054054054054057,
+          0.04999999999999999
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.022972972972972967,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 2,
+        "losses": 6,
+        "mean_assays_earlier": 0.4594594594594595,
+        "n": 111,
+        "permutation_p_two_sided": 0.1033789662103379,
+        "ties": 83,
+        "wins": 22
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          0.0018018018018018003,
+          0.03513513513513514
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.018918918918918916,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 1,
+        "losses": 1,
+        "mean_assays_earlier": 0.3783783783783784,
+        "n": 111,
+        "permutation_p_two_sided": 0.02821971780282197,
+        "ties": 95,
+        "wins": 15
+      }
+    },
+    "klaeger_primary_standard": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          -0.003603603603603603,
+          0.04415540540540524
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.021171171171171167,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 5,
+        "mean_assays_earlier": 0.42342342342342343,
+        "n": 111,
+        "permutation_p_two_sided": 0.09464905350946491,
+        "ties": 80,
+        "wins": 26
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.010810810810810808,
+          0.016216216216216214
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.0009009009009009012,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 9,
+        "mean_assays_earlier": 0.018018018018018018,
+        "n": 111,
+        "permutation_p_two_sided": 0.967230327696723,
+        "ties": 96,
+        "wins": 6
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.025675675675675677,
+          0.02612612612612613
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.0009009009009009022,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 2,
+        "losses": 13,
+        "mean_assays_earlier": 0.018018018018018018,
+        "n": 111,
+        "permutation_p_two_sided": 0.976540234597654,
+        "ties": 79,
+        "wins": 19
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          -0.0049549549549549555,
+          0.04054054054054054
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.018018018018018018,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 4,
+        "mean_assays_earlier": 0.36036036036036034,
+        "n": 111,
+        "permutation_p_two_sided": 0.13504864951350487,
+        "ties": 86,
+        "wins": 21
+      }
+    },
+    "klaeger_scaffold_exclusion": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          -0.004054054054054056,
+          0.044144144144144144
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.02072072072072072,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 5,
+        "mean_assays_earlier": 0.4144144144144144,
+        "n": 111,
+        "permutation_p_two_sided": 0.1032389676103239,
+        "ties": 80,
+        "wins": 26
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.011711711711711712,
+          0.016216216216216214
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 5.001004615428633e-19,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 9,
+        "mean_assays_earlier": 0.0,
+        "n": 111,
+        "permutation_p_two_sided": 1.0,
+        "ties": 96,
+        "wins": 6
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.026126126126126126,
+          0.027477477477477474
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.001351351351351353,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 2,
+        "losses": 13,
+        "mean_assays_earlier": 0.02702702702702703,
+        "n": 111,
+        "permutation_p_two_sided": 0.9491805081949181,
+        "ties": 79,
+        "wins": 19
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          -0.005405405405405402,
+          0.03963963963963964
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.017567567567567565,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 1,
+        "losses": 4,
+        "mean_assays_earlier": 0.35135135135135137,
+        "n": 111,
+        "permutation_p_two_sided": 0.14606853931460687,
+        "ties": 86,
+        "wins": 21
+      }
+    },
+    "pkis2_gt80_sensitivity": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          0.05914062499999999,
+          0.10460937499999998
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.08171874999999999,
+        "large_advance_ge_10": 68,
+        "large_delay_ge_10": 24,
+        "losses": 49,
+        "mean_assays_earlier": 1.634375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 384,
+        "wins": 207
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.06281250000000001,
+          -0.035390625
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.04875,
+        "large_advance_ge_10": 4,
+        "large_delay_ge_10": 22,
+        "losses": 217,
+        "mean_assays_earlier": -0.975,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 373,
+        "wins": 50
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.04375,
+          -0.010703124999999999
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.026796875000000005,
+        "large_advance_ge_10": 12,
+        "large_delay_ge_10": 35,
+        "losses": 69,
+        "mean_assays_earlier": -0.5359375,
+        "n": 640,
+        "permutation_p_two_sided": 0.0015999840001599984,
+        "ties": 514,
+        "wins": 57
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          0.065546875,
+          0.10796874999999999
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.08625,
+        "large_advance_ge_10": 65,
+        "large_delay_ge_10": 17,
+        "losses": 37,
+        "mean_assays_earlier": 1.725,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 412,
+        "wins": 191
+      }
+    },
+    "pkis2_gt90_chemotype": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          0.058828124999999995,
+          0.10265820312499997
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.08054687499999999,
+        "large_advance_ge_10": 72,
+        "large_delay_ge_10": 23,
+        "losses": 51,
+        "mean_assays_earlier": 1.6109375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 375,
+        "wins": 214
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.03156249999999999,
+          -0.014451171875000023
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.022734374999999998,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 7,
+        "losses": 93,
+        "mean_assays_earlier": -0.4546875,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 499,
+        "wins": 48
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          0.03406249999999999,
+          0.07406249999999999
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.053671874999999994,
+        "large_advance_ge_10": 55,
+        "large_delay_ge_10": 25,
+        "losses": 48,
+        "mean_assays_earlier": 1.0734375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 405,
+        "wins": 187
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          0.056171874999999996,
+          0.09687695312499997
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.07664062499999999,
+        "large_advance_ge_10": 66,
+        "large_delay_ge_10": 16,
+        "losses": 39,
+        "mean_assays_earlier": 1.5328125,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 422,
+        "wins": 179
+      }
+    },
+    "pkis2_gt90_scaffold": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          0.06015625,
+          0.105859375
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.083203125,
+        "large_advance_ge_10": 73,
+        "large_delay_ge_10": 28,
+        "losses": 51,
+        "mean_assays_earlier": 1.6640625,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 351,
+        "wins": 238
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.065,
+          -0.0396875
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.051875000000000004,
+        "large_advance_ge_10": 3,
+        "large_delay_ge_10": 20,
+        "losses": 189,
+        "mean_assays_earlier": -1.0375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 403,
+        "wins": 48
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.020390625000000002,
+          0.01484570312499997
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.002500000000000001,
+        "large_advance_ge_10": 23,
+        "large_delay_ge_10": 32,
+        "losses": 64,
+        "mean_assays_earlier": -0.05,
+        "n": 640,
+        "permutation_p_two_sided": 0.7905620943790562,
+        "ties": 463,
+        "wins": 113
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          0.06695312499999999,
+          0.106640625
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.086875,
+        "large_advance_ge_10": 64,
+        "large_delay_ge_10": 15,
+        "losses": 32,
+        "mean_assays_earlier": 1.7375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 396,
+        "wins": 212
+      }
+    },
+    "pkis2_gt90_standard": {
+      "invariant_coverage_minus_invariant_marginal": {
+        "ci95": [
+          0.05804492187499999,
+          0.100859375
+        ],
+        "comparison": "INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.07921874999999999,
+        "large_advance_ge_10": 66,
+        "large_delay_ge_10": 27,
+        "losses": 52,
+        "mean_assays_earlier": 1.584375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 353,
+        "wins": 235
+      },
+      "invariant_coverage_minus_original_coverage": {
+        "ci95": [
+          -0.069921875,
+          -0.044062500000000004
+        ],
+        "comparison": "INVARIANT_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.05648437500000001,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 18,
+        "losses": 221,
+        "mean_assays_earlier": -1.1296875,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 374,
+        "wins": 45
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.030703124999999998,
+          0.0011718749999999971
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.014609375000000003,
+        "large_advance_ge_10": 14,
+        "large_delay_ge_10": 29,
+        "losses": 65,
+        "mean_assays_earlier": -0.2921875,
+        "n": 640,
+        "permutation_p_two_sided": 0.07592924070759292,
+        "ties": 502,
+        "wins": 73
+      },
+      "selective_invariant_minus_invariant_marginal": {
+        "ci95": [
+          0.0646875,
+          0.10476757812499997
+        ],
+        "comparison": "SELECTIVE_INVARIANT_COVERAGE - INVARIANT_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.084375,
+        "large_advance_ge_10": 62,
+        "large_delay_ge_10": 16,
+        "losses": 35,
+        "mean_assays_earlier": 1.6875,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 394,
+        "wins": 211
+      }
+    }
+  },
+  "datasets": {
+    "KLAEGER_CHEMBL30": {
+      "compounds": 111,
+      "license": "CC BY-SA 3.0",
+      "source": "Klaeger et al. via ChEMBL 30",
+      "targets": 146,
+      "task_language": "within-panel binding liability"
+    },
+    "PKIS2": {
+      "compounds": 640,
+      "excluded_identifier_empty_rows": 1,
+      "excluded_stray_assay_cell": "TEC=13",
+      "license": "CC BY 4.0",
+      "parent_compounds": 640,
+      "parent_targets": 392,
+      "raw_assay_columns": 406,
+      "raw_rows_after_empty_exclusion": 645,
+      "source": "Drewry et al. 2017 PLOS ONE S4",
+      "source_sha256": "48ead22a1f860cd0d5096fa87d5acd329f722fe8d65e693bb0be682a333e2a2c",
+      "targets": 392,
+      "task_language": "first strong profile-activity discovery; intended targets unavailable"
+    }
+  },
+  "frozen_success_criteria": {
+    "chemotype_retains_at_least_75_percent": true,
+    "composite_exploratory_success": true,
+    "gate_large_delays_at_most_20": true,
+    "gate_retains_at_least_half_original_gain": true,
+    "invariant_order_more_stable": true,
+    "klaeger_primary_noninferior_within_0_005": true,
+    "pkis2_gt80_improves_over_original_contrast": true,
+    "pkis2_gt80_reversal_eliminated": true,
+    "pkis2_standard_improves_over_original_contrast": true,
+    "pkis2_standard_reversal_eliminated": true
+  },
+  "gates": {
+    "klaeger_delta_0_5": {
+      "coverage_count": 87,
+      "coverage_rate": 0.7837837837837838,
+      "mean_estimated_local_uplift": 0.014277932976427096,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 111
+    },
+    "klaeger_leave10_nearest": {
+      "coverage_count": 62,
+      "coverage_rate": 0.5585585585585585,
+      "mean_estimated_local_uplift": 0.004367424331197755,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 111
+    },
+    "klaeger_primary_standard": {
+      "coverage_count": 87,
+      "coverage_rate": 0.7837837837837838,
+      "mean_estimated_local_uplift": 0.019015469785134076,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 111
+    },
+    "klaeger_scaffold_exclusion": {
+      "coverage_count": 87,
+      "coverage_rate": 0.7837837837837838,
+      "mean_estimated_local_uplift": 0.018852768430373753,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 111
+    },
+    "pkis2_gt80_sensitivity": {
+      "coverage_count": 501,
+      "coverage_rate": 0.7828125,
+      "mean_estimated_local_uplift": 0.09215911639698626,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 640
+    },
+    "pkis2_gt90_chemotype": {
+      "coverage_count": 507,
+      "coverage_rate": 0.7921875,
+      "mean_estimated_local_uplift": 0.047535072363762934,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 640
+    },
+    "pkis2_gt90_scaffold": {
+      "coverage_count": 481,
+      "coverage_rate": 0.7515625,
+      "mean_estimated_local_uplift": 0.08190460795398545,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 640
+    },
+    "pkis2_gt90_standard": {
+      "coverage_count": 486,
+      "coverage_rate": 0.759375,
+      "mean_estimated_local_uplift": 0.08143273105245022,
+      "mean_pseudo_holdout_count": 32.0,
+      "n": 640
+    }
+  },
+  "interpretation_scope": "Post hoc model-development study motivated by the completed mechanism audit; not a revised confirmatory test or evidence of therapeutic suitability.",
+  "models": [
+    "ORIGINAL_MARGINAL",
+    "ORIGINAL_COVERAGE",
+    "INVARIANT_MARGINAL",
+    "INVARIANT_COVERAGE",
+    "SELECTIVE_INVARIANT_COVERAGE"
+  ],
+  "parameters": {
+    "bootstrap": 10000,
+    "chemical_weight_beta": 8.0,
+    "master_seed": 20260905,
+    "minimum_pseudo_holdouts": 8,
+    "permutations": 100000,
+    "pseudo_holdouts": 32,
+    "stability_reference_fraction": 0.8,
+    "stability_replicates": 50,
+    "strata": 5
+  },
+  "runtime_seconds": 285.63359212875366,
+  "stability": {
+    "condition": "pkis2_gt90_chemotype",
+    "difference_ci95": [
+      -0.002065486455180858,
+      0.004929607272323261
+    ],
+    "mean_difference": 0.0014374641902215337,
+    "mean_invariant_top10_jaccard": 0.7904194685522811,
+    "mean_original_top10_jaccard": 0.7889820043620596,
+    "n": 640,
+    "subsamples_per_case": 50
+  },
+  "status": "EXPLORATORY_MODELING_COMPLETE"
+}

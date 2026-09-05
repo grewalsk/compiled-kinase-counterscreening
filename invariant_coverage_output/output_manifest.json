@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "bytes": 6123,
+      "path": "INVARIANT_COVERAGE_PROTOCOL.md",
+      "sha256": "23a421c67c69f128c308ec4fa664637f626b6f35f1f5be070df9a1e06bd9505d"
+    },
+    {
+      "bytes": 479811,
+      "path": "case_metrics.csv.gz",
+      "sha256": "4d13e34508edac593e3785e447fecad5a9cf6bad1afef801d5824d07c0f23eda"
+    },
+    {
+      "bytes": 7640,
+      "path": "comparison_summary.csv",
+      "sha256": "6bbe01b3681694f430db131152d7d44510ec51b9122fbccdd75a00e110773045"
+    },
+    {
+      "bytes": 319,
+      "path": "environment.json",
+      "sha256": "70eaa3dd3a6614c67cceea2bd8f0afe48ba7dccdd0410ec739f37c50d857fa72"
+    },
+    {
+      "bytes": 50672,
+      "path": "figures/chemotype_tail_risk.png",
+      "sha256": "021d1c42bb173cdfa5e737e7ddd420fb365485eab3d6ff211b5377793542cb44"
+    },
+    {
+      "bytes": 110611,
+      "path": "figures/condition_effects.png",
+      "sha256": "71805d4b49455a900862110f128fb5c2343b046a9d873820f692e52a3b0be4f1"
+    },
+    {
+      "bytes": 136662,
+      "path": "figures/stability_comparison.png",
+      "sha256": "d80c37c63eb0e286a409b068a409db7c4929899dc5bc9d5b145b06d4592bd9af"
+    },
+    {
+      "bytes": 39639,
+      "path": "gate_diagnostics.csv.gz",
+      "sha256": "5fd2ecf46f2e109b711039daf6bf4c71a4bd8281c42e8f5f938edf0affc90934"
+    },
+    {
+      "bytes": 12352,
+      "path": "stability_diagnostics.csv.gz",
+      "sha256": "36c3bae496f51e610073e343293fc22d3a45ec6e31a699d82815f78975af0083"
+    },
+    {
+      "bytes": 21777,
+      "path": "summary.json",
+      "sha256": "8db3ab09dd3d3237abecd58caa7d9d6e2ef9888b9bccfc119ff964fa3ab37b72"
+    }
+  ]
+}
