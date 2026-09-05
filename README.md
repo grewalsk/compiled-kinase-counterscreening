@@ -1,5 +1,7 @@
 # Which Counter-Screen Next?
 
+[![Open rank-deadline study in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/rank_deadline_coverage_colab.ipynb)
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/compiled_profile_coverage_colab.ipynb)
 
 [![Open invariant-model audit in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/invariant_coverage_colab_public.ipynb)
@@ -13,6 +15,34 @@ liability relative to the compound's measured on-target affinity.
 This project does **not** infer biochemical inhibition, cellular target
 engagement, therapeutic benefit, toxicity, or clinical safety. It does not
 recommend compounds or treatments.
+
+## Headline: rank-deadline coverage and external validation
+
+The submission-facing method is **rank-deadline profile coverage**. It greedily
+diversifies kinase assays while constraining every assay to remain within nine
+positions of a chemical-similarity-weighted marginal order. This gives an
+exact first-hit backstop: the method cannot delay the first recorded activity
+by ten or more assays relative to marginal ranking.
+
+The result is deliberately not presented as universal ranking superiority.
+All eight development-condition point estimates were nonnegative and the
+method retained 80.6% of the unconstrained PKIS2 chemotype-shift gain, but a
+frozen external PKIS1 evaluation rejected mean transfer. The external `>80%`
+effect was -0.02065 AUDC (95% interval [-0.03062, -0.01166]). The formal risk
+result nevertheless held: zero large delays across all 4,428 development and
+external compound-condition evaluations, versus 163 for unconstrained
+coverage.
+
+Start with:
+
+- `paper/bounded_coverage.pdf`: submission-formatted manuscript;
+- `PKIS1_EXTERNAL_VALIDATION_RESULTS.md`: external result and robustness;
+- `RISK_CONTROLLED_COVERAGE_RESULTS.md`: development result;
+- `notebooks/rank_deadline_coverage_colab.ipynb`: end-to-end CPU rerun;
+- `BOUNDED_COVERAGE_EXPERT_REVIEW.md`: required biological review, still open.
+
+No GPU, paid API, or model training is needed. A standard Colab CPU is the
+recommended runtime.
 
 ## New compiled profile-coverage experiment
 

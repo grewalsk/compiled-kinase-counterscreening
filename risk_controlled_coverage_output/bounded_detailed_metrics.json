@@ -1,0 +1,1302 @@
+{
+  "multiplicity": "Holm adjustment is reported separately for each comparison and metric across the eight conditions. Primary frozen decisions remain AUDC-based.",
+  "results": {
+    "klaeger_delta_0_5": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            -0.0018018018018018003,
+            0.038288288288288286
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.018018018018018014,
+          "holm_p_across_8_conditions": 0.2632173678263217,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.08773912260877391
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.018018018018018018,
+            0.05405405405405406
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.018018018018018018,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.6235637643623564
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.018018018018018018,
+            0.04504504504504504
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.009009009009009009,
+            0.07207207207207207
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.02702702702702703,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 0.3777662223377766
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.0,
+            0.09009009009009009
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.04504504504504504,
+          "holm_p_across_8_conditions": 0.7292927070729293,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 0.12154878451215488
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            -0.036486486486486495,
+            0.02387387387387387
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": -0.004954954954954961,
+          "holm_p_across_8_conditions": 0.9776902230977691,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.7750422495775042
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.036036036036036036,
+            0.07207207207207207
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.018018018018018018,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.7279127208727912
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.06306306306306306,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": -0.018018018018018018,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.6877731222687773
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.02702702702702703,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": -0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.04504504504504504,
+            0.018018018018018018
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": -0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        }
+      }
+    },
+    "klaeger_leave10_nearest": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            0.021171171171171167,
+            0.060360360360360354
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.04009009009009008,
+          "holm_p_across_8_conditions": 0.0002099979000209998,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 2.999970000299997e-05
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            0.009009009009009009,
+            0.07207207207207207
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.036036036036036036,
+          "holm_p_across_8_conditions": 0.8692513074869251,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.12417875821241788
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.07207207207207207,
+            0.1981981981981982
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.13513513513513514,
+          "holm_p_across_8_conditions": 0.0006299937000629993,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 8.99991000089999e-05
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.06306306306306306,
+            0.18018018018018017
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.11711711711711711,
+          "holm_p_across_8_conditions": 0.0023199768002319975,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 0.0002899971000289997
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            -0.0013513513513513525,
+            0.039639639639639644
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.01711711711711712,
+          "holm_p_across_8_conditions": 0.5489945100548994,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.10979890201097989
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            0.009009009009009009,
+            0.09009009009009009
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.04504504504504504,
+          "holm_p_across_8_conditions": 0.36737632623673766,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.06122938770612294
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.02702702702702703,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        }
+      }
+    },
+    "klaeger_primary_standard": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            0.00045045045045044786,
+            0.025675675675675677
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.013063063063063056,
+          "holm_p_across_8_conditions": 0.22489775102248977,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.05235947640523595
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            0.0,
+            0.04504504504504504
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.018018018018018018,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.5008949910500895
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.036036036036036036,
+            0.07207207207207207
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.018018018018018018,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 0.7519124808751912
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.009009009009009009,
+            0.0990990990990991
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.04504504504504504,
+          "holm_p_across_8_conditions": 0.8926410735892641,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 0.17852821471785282
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            -0.009459459459459462,
+            0.03513513513513512
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.01216216216216216,
+          "holm_p_across_8_conditions": 0.9776902230977691,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.32840671593284065
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.009009009009009009,
+            0.07207207207207207
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.02702702702702703,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.37548624513754864
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.018018018018018018,
+            0.04504504504504504
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        }
+      }
+    },
+    "klaeger_scaffold_exclusion": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            0.0009009009009008997,
+            0.02657657657657657
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.013513513513513506,
+          "holm_p_across_8_conditions": 0.22489775102248977,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.04497955020449795
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            0.0,
+            0.04504504504504504
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.018018018018018018,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.5007749922500775
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.02702702702702703,
+            0.09009009009009009
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.02702702702702703,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 0.5482545174548255
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.009009009009009009,
+            0.0990990990990991
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.04504504504504504,
+          "holm_p_across_8_conditions": 0.8926410735892641,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 0.1813381866181338
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            -0.009459459459459462,
+            0.035585585585585576
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.01216216216216216,
+          "holm_p_across_8_conditions": 0.9776902230977691,
+          "metric": "audc_1_20",
+          "n": 111,
+          "permutation_p_two_sided": 0.3258967410325897
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.009009009009009009,
+            0.07207207207207207
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.02702702702702703,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 111,
+          "permutation_p_two_sided": 0.37371626283737164
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.018018018018018018,
+            0.04504504504504504
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.0,
+            0.02702702702702703
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "KLAEGER_CHEMBL30",
+          "estimate": 0.009009009009009009,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_5",
+          "n": 111,
+          "permutation_p_two_sided": 1.0
+        }
+      }
+    },
+    "pkis2_gt80_sensitivity": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            -0.007499999999999998,
+            0.008359375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0006249999999999999,
+          "holm_p_across_8_conditions": 0.8932110678893211,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.8932110678893211
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.0171875,
+            0.0171875
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.0046875,
+            0.009375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0015625,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.00625,
+            0.03125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0125,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 0.2703772962270377
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.0203125,
+            0.0140625
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": -0.003125,
+          "holm_p_across_8_conditions": 0.8926410735892641,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.8572114278857211
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            0.014296874999999997,
+            0.041171875000000004
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.027421874999999995,
+          "holm_p_across_8_conditions": 0.0005599944000559995,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 6.999930000699993e-05
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            0.0125,
+            0.0484375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0296875,
+          "holm_p_across_8_conditions": 0.02239977600223998,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 0.0027999720002799973
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.0140625,
+            0.0578125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0359375,
+          "holm_p_across_8_conditions": 0.015679843201567983,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.001959980400195998
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.0046875,
+            0.03125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0171875,
+          "holm_p_across_8_conditions": 0.1054389456105439,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 0.013179868201317987
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.003125,
+            0.028125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0125,
+          "holm_p_across_8_conditions": 0.8379916200837991,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.16759832401675984
+        }
+      }
+    },
+    "pkis2_gt90_chemotype": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            0.032109374999999996,
+            0.05445312499999999
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.04328124999999999,
+          "holm_p_across_8_conditions": 7.999920000799993e-05,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 9.99990000099999e-06
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            0.021875,
+            0.0671875
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.04375,
+          "holm_p_across_8_conditions": 0.0023199768002319975,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 0.0002899971000289997
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.009375,
+            0.0328125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0203125,
+          "holm_p_across_8_conditions": 0.008319916800831991,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.0010399896001039989
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.05,
+            0.0953125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.071875,
+          "holm_p_across_8_conditions": 7.999920000799993e-05,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 9.99990000099999e-06
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.0140625,
+            0.053125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0328125,
+          "holm_p_across_8_conditions": 0.00986990130098699,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.0014099859001409985
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            -0.025546875000000004,
+            0.004765625000000001
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": -0.010390624999999997,
+          "holm_p_across_8_conditions": 0.7394726052739473,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.18486815131848683
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.0375,
+            0.009375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": -0.0140625,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 0.2881071189288107
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.0390625,
+            0.0109375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": -0.0140625,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.32071679283207166
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.0125,
+            0.01875
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.003125,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 0.8385916140838592
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.0453125,
+            -0.003125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": -0.0234375,
+          "holm_p_across_8_conditions": 0.2811871881281187,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.04016959830401696
+        }
+      }
+    },
+    "pkis2_gt90_scaffold": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            0.004216796874999997,
+            0.021249999999999998
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.012656249999999997,
+          "holm_p_across_8_conditions": 0.01901980980190198,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.003169968300316997
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.0203125,
+            0.0109375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": -0.0046875,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 0.7016429835701643
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.00625,
+            0.0265625
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.015625,
+          "holm_p_across_8_conditions": 0.012879871201287987,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.001839981600183998
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.021875,
+            0.0703125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0453125,
+          "holm_p_across_8_conditions": 0.0017399826001739981,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 0.0002899971000289997
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.00625,
+            0.034375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0140625,
+          "holm_p_across_8_conditions": 0.8926410735892641,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.23367766322336778
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            0.0005468749999999988,
+            0.03
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.01515625,
+          "holm_p_across_8_conditions": 0.2711372886271137,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.04518954810451895
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.00625,
+            0.0359375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.015625,
+          "holm_p_across_8_conditions": 0.974040259597404,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 0.1948080519194808
+        },
+        "hit_at_20": {
+          "ci95": [
+            -0.00625,
+            0.0421875
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0171875,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.21422785772142278
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.009375,
+            0.009375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.0,
+            0.03125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.015625,
+          "holm_p_across_8_conditions": 0.44393556064439355,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.07398926010739892
+        }
+      }
+    },
+    "pkis2_gt90_standard": {
+      "bounded_minus_marginal": {
+        "audc_1_20": {
+          "ci95": [
+            -0.001328125000000001,
+            0.014687499999999997
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.006796874999999999,
+          "holm_p_across_8_conditions": 0.2632173678263217,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.1022889771102289
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            -0.01875,
+            0.0125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": -0.003125,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 0.8457915420845792
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.0,
+            0.0171875
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.0078125,
+          "holm_p_across_8_conditions": 0.7449525504744953,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.12415875841241587
+        },
+        "hit_at_3": {
+          "ci95": [
+            0.0,
+            0.0375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.01875,
+          "holm_p_across_8_conditions": 0.43449565504344956,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 0.08689913100868991
+        },
+        "hit_at_5": {
+          "ci95": [
+            -0.009375,
+            0.028125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+          "dataset": "PKIS2",
+          "estimate": 0.009375,
+          "holm_p_across_8_conditions": 0.8926410735892641,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.4057659423405766
+        }
+      },
+      "bounded_minus_unbounded": {
+        "audc_1_20": {
+          "ci95": [
+            0.008125,
+            0.034765625
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.021406249999999998,
+          "holm_p_across_8_conditions": 0.011969880301196988,
+          "metric": "audc_1_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.0017099829001709984
+        },
+        "hit_at_1": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_1",
+          "n": 640,
+          "permutation_p_two_sided": 1.0
+        },
+        "hit_at_10": {
+          "ci95": [
+            0.0046875,
+            0.04375
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0234375,
+          "holm_p_across_8_conditions": 0.1894881051189488,
+          "metric": "hit_at_10",
+          "n": 640,
+          "permutation_p_two_sided": 0.02706972930270697
+        },
+        "hit_at_20": {
+          "ci95": [
+            0.00625,
+            0.05
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.028125,
+          "holm_p_across_8_conditions": 0.0947090529094709,
+          "metric": "hit_at_20",
+          "n": 640,
+          "permutation_p_two_sided": 0.013529864701352987
+        },
+        "hit_at_3": {
+          "ci95": [
+            -0.0015625,
+            0.01875
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0078125,
+          "holm_p_across_8_conditions": 1.0,
+          "metric": "hit_at_3",
+          "n": 640,
+          "permutation_p_two_sided": 0.22952770472295278
+        },
+        "hit_at_5": {
+          "ci95": [
+            0.0078125,
+            0.0328125
+          ],
+          "comparison": "BOUNDED_COVERAGE - ORIGINAL_COVERAGE",
+          "dataset": "PKIS2",
+          "estimate": 0.0203125,
+          "holm_p_across_8_conditions": 0.01975980240197598,
+          "metric": "hit_at_5",
+          "n": 640,
+          "permutation_p_two_sided": 0.0024699753002469975
+        }
+      }
+    }
+  },
+  "status": "POST_RUN_DETAILED_COMPONENT_AUDIT"
+}

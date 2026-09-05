@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "bytes": 1397,
+      "path": "PKIS1_EXTERNAL_VALIDATION_AMENDMENT.md",
+      "sha256": "e49c04a217bc00ea012bd10df43cfe3beb0963b508c8e1e8b0e4c1356221e7b2"
+    },
+    {
+      "bytes": 1112,
+      "path": "PKIS1_EXTERNAL_VALIDATION_AMENDMENT_2.md",
+      "sha256": "a536ce1eb7859655d32e7f6f46c683800149aeb07d86b7276ae423f7c01e3585"
+    },
+    {
+      "bytes": 10578,
+      "path": "PKIS1_EXTERNAL_VALIDATION_PROTOCOL.md",
+      "sha256": "f3486885553ce02db91ed596ecea7a79f452b3ec0b7982bdec7d9c92fd2d17e0"
+    },
+    {
+      "bytes": 98125,
+      "path": "case_metrics.csv.gz",
+      "sha256": "9540d33511e7204708f48de3f57593b332b694f928fcf3263d4f9cfaeb1209c7"
+    },
+    {
+      "bytes": 2846,
+      "path": "comparison_summary.csv",
+      "sha256": "11b8baf7f1cdd857540368c238553064fd9da2ef5008e578c7b12690b5a8adf9"
+    },
+    {
+      "bytes": 319,
+      "path": "environment.json",
+      "sha256": "eb9c832bb683d887fa56a304711476f8e86cc1eb637205f48c29f20d5e4423d2"
+    },
+    {
+      "bytes": 68465,
+      "path": "figures/pkis1_external_effects.png",
+      "sha256": "5202897229a9abc2442dfd34a431d48b94e2172c0a7fe87161ddb67ce4b14a92"
+    },
+    {
+      "bytes": 8001,
+      "path": "metric_effects.csv",
+      "sha256": "19141ba6a53b8b8c4556ca4ec2e38b4f257983ee5d68fe381cf10895afc65dda"
+    },
+    {
+      "bytes": 6777,
+      "path": "stability_diagnostics.csv.gz",
+      "sha256": "a74a48f07553407582bbc797800a20fca8cf99fba0cdc852e24ded3ad04c830a"
+    },
+    {
+      "bytes": 9235,
+      "path": "summary.json",
+      "sha256": "1760510df5e0a5ec699cc7700df3abb292bb8b9400e1c2f547be01017dbd9036"
+    }
+  ]
+}

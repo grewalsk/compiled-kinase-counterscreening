@@ -1,0 +1,174 @@
+{
+  "absolute_checks": {
+    "bounded_order_stable": false,
+    "chemotype_retains_75_percent": true,
+    "composite_success": false,
+    "klaeger_primary_noninferior": true,
+    "pkis2_gt80_nonnegative_and_noninferior": true,
+    "pkis2_standard_nonnegative_and_noninferior": true,
+    "zero_large_delays_all_conditions": true
+  },
+  "chemotype_fraction_of_original_gain": 0.8064046579330422,
+  "comparisons": {
+    "klaeger_delta_0_5": {
+      "ci95": [
+        -0.0013513513513513536,
+        0.039189189189189184
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "KLAEGER_CHEMBL30",
+      "estimate": 0.018018018018018014,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 7,
+      "mean_assays_earlier": 0.36036036036036034,
+      "n": 111,
+      "permutation_p_two_sided": 0.08701912980870191,
+      "ties": 89,
+      "wins": 15
+    },
+    "klaeger_leave10_nearest": {
+      "ci95": [
+        0.021171171171171174,
+        0.0608108108108108
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "KLAEGER_CHEMBL30",
+      "estimate": 0.04009009009009008,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 4,
+      "mean_assays_earlier": 0.8018018018018018,
+      "n": 111,
+      "permutation_p_two_sided": 1.999980000199998e-05,
+      "ties": 83,
+      "wins": 24
+    },
+    "klaeger_primary_standard": {
+      "ci95": [
+        0.00045045045045044786,
+        0.02567567567567567
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "KLAEGER_CHEMBL30",
+      "estimate": 0.013063063063063056,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 10,
+      "mean_assays_earlier": 0.26126126126126126,
+      "n": 111,
+      "permutation_p_two_sided": 0.05300946990530095,
+      "ties": 82,
+      "wins": 19
+    },
+    "klaeger_scaffold_exclusion": {
+      "ci95": [
+        0.00045045045045045084,
+        0.026126126126126123
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "KLAEGER_CHEMBL30",
+      "estimate": 0.013513513513513506,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 10,
+      "mean_assays_earlier": 0.2702702702702703,
+      "n": 111,
+      "permutation_p_two_sided": 0.04630953690463095,
+      "ties": 82,
+      "wins": 19
+    },
+    "pkis2_gt80_sensitivity": {
+      "ci95": [
+        -0.007578125,
+        0.0084375
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "PKIS2",
+      "estimate": 0.0006249999999999999,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 44,
+      "mean_assays_earlier": 0.0125,
+      "n": 640,
+      "permutation_p_two_sided": 0.8953710462895371,
+      "ties": 532,
+      "wins": 64
+    },
+    "pkis2_gt90_chemotype": {
+      "ci95": [
+        0.032109374999999996,
+        0.05453124999999999
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "PKIS2",
+      "estimate": 0.04328124999999999,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 31,
+      "mean_assays_earlier": 0.865625,
+      "n": 640,
+      "permutation_p_two_sided": 9.99990000099999e-06,
+      "ties": 441,
+      "wins": 168
+    },
+    "pkis2_gt90_scaffold": {
+      "ci95": [
+        0.004296874999999997,
+        0.021015624999999993
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "PKIS2",
+      "estimate": 0.012656249999999997,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 46,
+      "mean_assays_earlier": 0.253125,
+      "n": 640,
+      "permutation_p_two_sided": 0.0033099669003309965,
+      "ties": 488,
+      "wins": 106
+    },
+    "pkis2_gt90_standard": {
+      "ci95": [
+        -0.0010937500000000005,
+        0.014765625
+      ],
+      "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+      "dataset": "PKIS2",
+      "estimate": 0.006796874999999999,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 43,
+      "mean_assays_earlier": 0.1359375,
+      "n": 640,
+      "permutation_p_two_sided": 0.1013089869101309,
+      "ties": 522,
+      "wins": 75
+    }
+  },
+  "interpretation_rule": "The component may be described as risk-bounded and empirically robust, but not as more reference-resampling stable when that criterion fails.",
+  "large_delays_by_condition": {
+    "klaeger_delta_0_5": 0,
+    "klaeger_leave10_nearest": 0,
+    "klaeger_primary_standard": 0,
+    "klaeger_scaffold_exclusion": 0,
+    "pkis2_gt80_sensitivity": 0,
+    "pkis2_gt90_chemotype": 0,
+    "pkis2_gt90_scaffold": 0,
+    "pkis2_gt90_standard": 0
+  },
+  "reason": "BOUNDED_COVERAGE was frozen as a component ablation of the final risk-controlled model. This audit applies the same absolute criteria without altering its order or parameters.",
+  "stability": {
+    "difference_ci95": [
+      -0.030326433419011575,
+      -0.019778414359078435
+    ],
+    "mean_bounded_top10_jaccard": 0.7632796587093462,
+    "mean_difference": -0.025072327845765362,
+    "mean_original_top10_jaccard": 0.7883519865551116,
+    "n": 640,
+    "subsamples_per_case": 50
+  },
+  "status": "POST_RUN_PRESPECIFIED_COMPONENT_AUDIT"
+}

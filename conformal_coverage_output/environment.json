@@ -1,0 +1,12 @@
+{
+  "cpu_only": true,
+  "matplotlib": "3.10.0",
+  "numpy": "2.0.2",
+  "paid_api_cost_usd": 0,
+  "pandas": "2.2.2",
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "python": "3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:19:53) [Clang 18.1.8 ]",
+  "rdkit": "2025.03.5",
+  "scipy": "1.16.1",
+  "workers": 8
+}

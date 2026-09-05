@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "bytes": 6566,
+      "path": "RISK_CONTROLLED_COVERAGE_PROTOCOL.md",
+      "sha256": "b2cbe2940fc385e64273770ceb4fc2e11f689a7b773e455ee3943a421f35b954"
+    },
+    {
+      "bytes": 326907,
+      "path": "case_metrics.csv.gz",
+      "sha256": "bd1f51a8ddd65c2947c3c21c0b6af5689557fd9a1c5f3ee7497b10399b1efaa5"
+    },
+    {
+      "bytes": 7584,
+      "path": "comparison_summary.csv",
+      "sha256": "d17f773dc805b9da7f6f5357803a6476b106c4a1acb12dcd30f8261c16281e9d"
+    },
+    {
+      "bytes": 319,
+      "path": "environment.json",
+      "sha256": "eb9c832bb683d887fa56a304711476f8e86cc1eb637205f48c29f20d5e4423d2"
+    },
+    {
+      "bytes": 104420,
+      "path": "figures/condition_effects.png",
+      "sha256": "1765eac952d88e715f19cd86120ffb017df07d5cb8eb6ea5106f7edb83c8a905"
+    },
+    {
+      "bytes": 143194,
+      "path": "figures/stability_comparison.png",
+      "sha256": "03567768fd30a147bbd44a1b5b786dcc698265b7ec96008137c05a7b46e5e04d"
+    },
+    {
+      "bytes": 37862,
+      "path": "gate_diagnostics.csv.gz",
+      "sha256": "b10b61b40c30e6fa95896767d0fd3e21dff6a27c5b3719d97c9a9967bae2e108"
+    },
+    {
+      "bytes": 15003,
+      "path": "stability_diagnostics.csv.gz",
+      "sha256": "c4c5848b82b7151bdd7538a8b290d41e338759940d0713966d567196c647fc0f"
+    },
+    {
+      "bytes": 25701,
+      "path": "summary.json",
+      "sha256": "a4d9c57e7124a5b738a34b781817281c78de4f4dbd49fb81e9870679bc1f2b6f"
+    }
+  ]
+}

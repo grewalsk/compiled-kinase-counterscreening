@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "bytes": 5952,
+      "path": "CONFORMAL_COVERAGE_PROTOCOL.md",
+      "sha256": "c4818735dcdb3a29d6ca92a0652ec0613edd055720a4229e9f5a3b3a2b191ced"
+    },
+    {
+      "bytes": 237674,
+      "path": "case_metrics.csv.gz",
+      "sha256": "beaf2fc9f398ba7bb2f466514b84c88143fc6622726e7f9a4374b5d92bdf903b"
+    },
+    {
+      "bytes": 5764,
+      "path": "comparison_summary.csv",
+      "sha256": "550779af8d2fde69a7b4213dff565d541ebda04be73d5fefc3602d7f046b334a"
+    },
+    {
+      "bytes": 319,
+      "path": "environment.json",
+      "sha256": "eb9c832bb683d887fa56a304711476f8e86cc1eb637205f48c29f20d5e4423d2"
+    },
+    {
+      "bytes": 99859,
+      "path": "figures/condition_effects.png",
+      "sha256": "025c1e1b8a43351c05cce822ab7167da6f1c821491a8eb2b416cbf716a8deffd"
+    },
+    {
+      "bytes": 115516,
+      "path": "figures/stability_comparison.png",
+      "sha256": "b0c0e40910411a63bd49fdea28b83c0788b34100dc2be13efae52ee745b21d47"
+    },
+    {
+      "bytes": 178203,
+      "path": "figures/support_diagnostic.png",
+      "sha256": "fe764f31d7183705546a134338df2dcfa676c2a994870f80eaea8cb2be8ad790"
+    },
+    {
+      "bytes": 38212,
+      "path": "gate_diagnostics.csv.gz",
+      "sha256": "16bda3971c5dbccbe70e6f243ee26f5615a7aa35e360175904d99814de70b6f0"
+    },
+    {
+      "bytes": 10306,
+      "path": "stability_diagnostics.csv.gz",
+      "sha256": "6642c69a400a4a6ccb765d497678a00e9c0823c06e9cda2fcf1c2c376440f86c"
+    },
+    {
+      "bytes": 21325,
+      "path": "summary.json",
+      "sha256": "b8fa5c52b63de6896ab738165993422303eb7a28ce396998be248d712da0c5d4"
+    }
+  ]
+}

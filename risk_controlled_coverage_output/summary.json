@@ -1,0 +1,833 @@
+{
+  "comparisons": {
+    "klaeger_delta_0_5": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.0013513513513513536,
+          0.039189189189189184
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.018018018018018014,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 7,
+        "mean_assays_earlier": 0.36036036036036034,
+        "n": 111,
+        "permutation_p_two_sided": 0.08701912980870191,
+        "ties": 89,
+        "wins": 15
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.008558558558558554,
+          0.05630630630630631
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.022972972972972974,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 1,
+        "losses": 11,
+        "mean_assays_earlier": 0.4594594594594595,
+        "n": 111,
+        "permutation_p_two_sided": 0.17802821971780283,
+        "ties": 84,
+        "wins": 16
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          -0.05405405405405406,
+          0.010810810810810804
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": -0.021171171171171174,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 2,
+        "losses": 15,
+        "mean_assays_earlier": -0.42342342342342343,
+        "n": 111,
+        "permutation_p_two_sided": 0.2215677843221568,
+        "ties": 84,
+        "wins": 12
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          -0.006306306306306306,
+          0.009909909909909908
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.001801801801801801,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 1,
+        "mean_assays_earlier": 0.036036036036036036,
+        "n": 111,
+        "permutation_p_two_sided": 1.0,
+        "ties": 108,
+        "wins": 2
+      }
+    },
+    "klaeger_leave10_nearest": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          0.021171171171171174,
+          0.0608108108108108
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.04009009009009008,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 4,
+        "mean_assays_earlier": 0.8018018018018018,
+        "n": 111,
+        "permutation_p_two_sided": 1.999980000199998e-05,
+        "ties": 83,
+        "wins": 24
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.004054054054054054,
+          0.04909909909909909
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.022972972972972967,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 2,
+        "losses": 6,
+        "mean_assays_earlier": 0.4594594594594595,
+        "n": 111,
+        "permutation_p_two_sided": 0.1033189668103319,
+        "ties": 83,
+        "wins": 22
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          -0.01756756756756757,
+          0.02612612612612613
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.003603603603603603,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 7,
+        "mean_assays_earlier": 0.07207207207207207,
+        "n": 111,
+        "permutation_p_two_sided": 0.7885421145788543,
+        "ties": 98,
+        "wins": 6
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          0.011261261261261259,
+          0.04369369369369369
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.026576576576576576,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 4,
+        "mean_assays_earlier": 0.5315315315315315,
+        "n": 111,
+        "permutation_p_two_sided": 0.0012599874001259987,
+        "ties": 89,
+        "wins": 18
+      }
+    },
+    "klaeger_primary_standard": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          0.00045045045045044786,
+          0.02567567567567567
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.013063063063063056,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 10,
+        "mean_assays_earlier": 0.26126126126126126,
+        "n": 111,
+        "permutation_p_two_sided": 0.05300946990530095,
+        "ties": 82,
+        "wins": 19
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.02747747747747747,
+          0.027477477477477474
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.0009009009009009022,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 2,
+        "losses": 13,
+        "mean_assays_earlier": 0.018018018018018018,
+        "n": 111,
+        "permutation_p_two_sided": 0.9739102608973911,
+        "ties": 79,
+        "wins": 19
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          -0.01981981981981982,
+          0.032432432432432434
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.006306306306306305,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 1,
+        "losses": 14,
+        "mean_assays_earlier": 0.12612612612612611,
+        "n": 111,
+        "permutation_p_two_sided": 0.6817731822681773,
+        "ties": 83,
+        "wins": 14
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          0.0013513513513513516,
+          0.014414414414414413
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.007207207207207207,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 0,
+        "mean_assays_earlier": 0.14414414414414414,
+        "n": 111,
+        "permutation_p_two_sided": 0.06320936790632094,
+        "ties": 106,
+        "wins": 5
+      }
+    },
+    "klaeger_scaffold_exclusion": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          0.00045045045045045084,
+          0.026126126126126123
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.013513513513513506,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 10,
+        "mean_assays_earlier": 0.2702702702702703,
+        "n": 111,
+        "permutation_p_two_sided": 0.04630953690463095,
+        "ties": 82,
+        "wins": 19
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.02568693693693693,
+          0.02792792792792792
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.001351351351351353,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 2,
+        "losses": 13,
+        "mean_assays_earlier": 0.02702702702702703,
+        "n": 111,
+        "permutation_p_two_sided": 0.9495405045949541,
+        "ties": 79,
+        "wins": 19
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          -0.02027027027027027,
+          0.03288288288288288
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.005855855855855854,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 1,
+        "losses": 14,
+        "mean_assays_earlier": 0.11711711711711711,
+        "n": 111,
+        "permutation_p_two_sided": 0.7015929840701594,
+        "ties": 83,
+        "wins": 14
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          0.0013513513513513516,
+          0.013963963963963967
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "KLAEGER_CHEMBL30",
+        "estimate": 0.007207207207207207,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 0,
+        "mean_assays_earlier": 0.14414414414414414,
+        "n": 111,
+        "permutation_p_two_sided": 0.06342936570634293,
+        "ties": 106,
+        "wins": 5
+      }
+    },
+    "pkis2_gt80_sensitivity": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.007578125,
+          0.0084375
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.0006249999999999999,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 44,
+        "mean_assays_earlier": 0.0125,
+        "n": 640,
+        "permutation_p_two_sided": 0.8953710462895371,
+        "ties": 532,
+        "wins": 64
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.043828124999999996,
+          -0.010076171875000027
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.026796875000000005,
+        "large_advance_ge_10": 12,
+        "large_delay_ge_10": 35,
+        "losses": 69,
+        "mean_assays_earlier": -0.5359375,
+        "n": 640,
+        "permutation_p_two_sided": 0.0015799842001579985,
+        "ties": 514,
+        "wins": 57
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          0.012421875,
+          0.0453125
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": 0.028750000000000005,
+        "large_advance_ge_10": 36,
+        "large_delay_ge_10": 11,
+        "losses": 51,
+        "mean_assays_earlier": 0.575,
+        "n": 640,
+        "permutation_p_two_sided": 0.0005299947000529995,
+        "ties": 518,
+        "wins": 71
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          -0.0007031249999999994,
+          0.0046875
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.001953125,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 4,
+        "mean_assays_earlier": 0.0390625,
+        "n": 640,
+        "permutation_p_two_sided": 0.17474825251747483,
+        "ties": 622,
+        "wins": 14
+      }
+    },
+    "pkis2_gt90_chemotype": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          0.032109374999999996,
+          0.05453124999999999
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.04328124999999999,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 31,
+        "mean_assays_earlier": 0.865625,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 441,
+        "wins": 168
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          0.033904296874999997,
+          0.07359374999999999
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.053671874999999994,
+        "large_advance_ge_10": 55,
+        "large_delay_ge_10": 25,
+        "losses": 48,
+        "mean_assays_earlier": 1.0734375,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 405,
+        "wins": 187
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          -0.037734375,
+          -0.005546874999999998
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": -0.021406249999999995,
+        "large_advance_ge_10": 19,
+        "large_delay_ge_10": 32,
+        "losses": 110,
+        "mean_assays_earlier": -0.428125,
+        "n": 640,
+        "permutation_p_two_sided": 0.00985990140098599,
+        "ties": 461,
+        "wins": 69
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          0.021953124999999997,
+          0.042812499999999996
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.032265625,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 27,
+        "mean_assays_earlier": 0.6453125,
+        "n": 640,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 486,
+        "wins": 127
+      }
+    },
+    "pkis2_gt90_scaffold": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          0.004296874999999997,
+          0.021015624999999993
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.012656249999999997,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 46,
+        "mean_assays_earlier": 0.253125,
+        "n": 640,
+        "permutation_p_two_sided": 0.0033099669003309965,
+        "ties": 488,
+        "wins": 106
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.020548828125,
+          0.015080078124999969
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.002500000000000001,
+        "large_advance_ge_10": 23,
+        "large_delay_ge_10": 32,
+        "losses": 64,
+        "mean_assays_earlier": -0.05,
+        "n": 640,
+        "permutation_p_two_sided": 0.7913820861791382,
+        "ties": 463,
+        "wins": 113
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          -0.007421874999999997,
+          0.026484375000000004
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": 0.009296875000000001,
+        "large_advance_ge_10": 31,
+        "large_delay_ge_10": 19,
+        "losses": 91,
+        "mean_assays_earlier": 0.1859375,
+        "n": 640,
+        "permutation_p_two_sided": 0.2888971110288897,
+        "ties": 477,
+        "wins": 72
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          0.002421874999999999,
+          0.011484375
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.006796874999999999,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 8,
+        "mean_assays_earlier": 0.1359375,
+        "n": 640,
+        "permutation_p_two_sided": 0.0023799762002379974,
+        "ties": 594,
+        "wins": 38
+      }
+    },
+    "pkis2_gt90_standard": {
+      "bounded_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.0010937500000000005,
+          0.014765625
+        ],
+        "comparison": "BOUNDED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.006796874999999999,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 43,
+        "mean_assays_earlier": 0.1359375,
+        "n": 640,
+        "permutation_p_two_sided": 0.1013089869101309,
+        "ties": 522,
+        "wins": 75
+      },
+      "original_coverage_minus_original_marginal": {
+        "ci95": [
+          -0.030781250000000003,
+          0.0010957031249999721
+        ],
+        "comparison": "ORIGINAL_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": -0.014609375000000003,
+        "large_advance_ge_10": 14,
+        "large_delay_ge_10": 29,
+        "losses": 65,
+        "mean_assays_earlier": -0.2921875,
+        "n": 640,
+        "permutation_p_two_sided": 0.07412925870741292,
+        "ties": 502,
+        "wins": 73
+      },
+      "risk_controlled_minus_original_coverage": {
+        "ci95": [
+          0.0014062500000000012,
+          0.032734375
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_COVERAGE",
+        "dataset": "PKIS2",
+        "estimate": 0.016953125,
+        "large_advance_ge_10": 29,
+        "large_delay_ge_10": 12,
+        "losses": 64,
+        "mean_assays_earlier": 0.3390625,
+        "n": 640,
+        "permutation_p_two_sided": 0.03272967270327297,
+        "ties": 508,
+        "wins": 68
+      },
+      "risk_controlled_minus_original_marginal": {
+        "ci95": [
+          -0.001015625,
+          0.005937499999999999
+        ],
+        "comparison": "RISK_CONTROLLED_COVERAGE - ORIGINAL_MARGINAL",
+        "dataset": "PKIS2",
+        "estimate": 0.00234375,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 5,
+        "mean_assays_earlier": 0.046875,
+        "n": 640,
+        "permutation_p_two_sided": 0.2022579774202258,
+        "ties": 619,
+        "wins": 16
+      }
+    }
+  },
+  "datasets": {
+    "KLAEGER_CHEMBL30": {
+      "compounds": 111,
+      "license": "CC BY-SA 3.0",
+      "source": "Klaeger et al. via ChEMBL 30",
+      "targets": 146,
+      "task_language": "within-panel binding liability"
+    },
+    "PKIS2": {
+      "compounds": 640,
+      "excluded_identifier_empty_rows": 1,
+      "excluded_stray_assay_cell": "TEC=13",
+      "license": "CC BY 4.0",
+      "parent_compounds": 640,
+      "parent_targets": 392,
+      "raw_assay_columns": 406,
+      "raw_rows_after_empty_exclusion": 645,
+      "source": "Drewry et al. 2017 PLOS ONE S4",
+      "source_sha256": "48ead22a1f860cd0d5096fa87d5acd329f722fe8d65e693bb0be682a333e2a2c",
+      "targets": 392,
+      "task_language": "first strong profile-activity discovery; intended targets unavailable"
+    }
+  },
+  "displacement_guarantee_verified": true,
+  "frozen_absolute_success_criteria": {
+    "chemotype_retains_75_percent": false,
+    "composite_success": false,
+    "klaeger_primary_noninferior": true,
+    "pkis2_gt80_nonnegative_and_noninferior": true,
+    "pkis2_standard_nonnegative_and_noninferior": true,
+    "risk_controlled_order_stable": false,
+    "zero_large_delays_all_conditions": true
+  },
+  "gates": {
+    "klaeger_delta_0_5": {
+      "abstained_realized_bounded_mean_delta": 0.018000000000000002,
+      "coverage_count": 11,
+      "coverage_rate": 0.0990990990990991,
+      "n": 111,
+      "query_max_similarity_quantiles": [
+        0.17647058823529413,
+        0.21839080459770116,
+        0.2513157894736842,
+        0.32098765432098764,
+        0.47642151855635007,
+        0.6022727272727273,
+        0.8412698412698413
+      ],
+      "selected_realized_bounded_mean_delta": 0.018181818181818174,
+      "support_pvalue_quantiles": [
+        0.009009009009009009,
+        0.10810810810810811,
+        0.25675675675675674,
+        0.5045045045045045,
+        0.7522522522522523,
+        0.9099099099099099,
+        1.0
+      ]
+    },
+    "klaeger_leave10_nearest": {
+      "abstained_realized_bounded_mean_delta": 0.039473684210526314,
+      "coverage_count": 73,
+      "coverage_rate": 0.6576576576576577,
+      "n": 111,
+      "query_max_similarity_quantiles": [
+        0.13392857142857142,
+        0.15625,
+        0.16836894215737364,
+        0.19491525423728814,
+        0.21886514369933677,
+        0.25688073394495414,
+        0.34444444444444444
+      ],
+      "selected_realized_bounded_mean_delta": 0.04041095890410958,
+      "support_pvalue_quantiles": [
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.06930693069306931,
+        0.1485148514851485,
+        0.3465346534653465,
+        0.6336633663366337
+      ]
+    },
+    "klaeger_primary_standard": {
+      "abstained_realized_bounded_mean_delta": 0.006499999999999995,
+      "coverage_count": 11,
+      "coverage_rate": 0.0990990990990991,
+      "n": 111,
+      "query_max_similarity_quantiles": [
+        0.17647058823529413,
+        0.21839080459770116,
+        0.2513157894736842,
+        0.32098765432098764,
+        0.47642151855635007,
+        0.6022727272727273,
+        0.8412698412698413
+      ],
+      "selected_realized_bounded_mean_delta": 0.07272727272727274,
+      "support_pvalue_quantiles": [
+        0.009009009009009009,
+        0.10810810810810811,
+        0.25675675675675674,
+        0.5045045045045045,
+        0.7522522522522523,
+        0.9099099099099099,
+        1.0
+      ]
+    },
+    "klaeger_scaffold_exclusion": {
+      "abstained_realized_bounded_mean_delta": 0.006999999999999996,
+      "coverage_count": 11,
+      "coverage_rate": 0.0990990990990991,
+      "n": 111,
+      "query_max_similarity_quantiles": [
+        0.17647058823529413,
+        0.21839080459770116,
+        0.2513157894736842,
+        0.3163265306122449,
+        0.43628334534967556,
+        0.5238095238095238,
+        0.75
+      ],
+      "selected_realized_bounded_mean_delta": 0.07272727272727274,
+      "support_pvalue_quantiles": [
+        0.009009009009009009,
+        0.10810810810810811,
+        0.25675675675675674,
+        0.4954954954954955,
+        0.7149467649467649,
+        0.8558558558558559,
+        0.963963963963964
+      ]
+    },
+    "pkis2_gt80_sensitivity": {
+      "abstained_realized_bounded_mean_delta": -0.0014756944444444446,
+      "coverage_count": 64,
+      "coverage_rate": 0.1,
+      "n": 640,
+      "query_max_similarity_quantiles": [
+        0.20588235294117646,
+        0.47492767598842817,
+        0.6263992537313433,
+        0.7080128205128206,
+        0.7914598842018197,
+        0.84,
+        0.975609756097561
+      ],
+      "selected_realized_bounded_mean_delta": 0.01953125,
+      "support_pvalue_quantiles": [
+        0.0015625,
+        0.10281250000000001,
+        0.25234375,
+        0.50078125,
+        0.7476562499999999,
+        0.9,
+        0.990625
+      ]
+    },
+    "pkis2_gt90_chemotype": {
+      "abstained_realized_bounded_mean_delta": 0.04171597633136094,
+      "coverage_count": 471,
+      "coverage_rate": 0.7359375,
+      "n": 640,
+      "query_max_similarity_quantiles": [
+        0.19811320754716982,
+        0.2558139534883721,
+        0.28945466807977643,
+        0.351000351000351,
+        0.4757549361207898,
+        0.6031185031185032,
+        0.90625
+      ],
+      "selected_realized_bounded_mean_delta": 0.04384288747346072,
+      "support_pvalue_quantiles": [
+        0.0015625,
+        0.009401449843260188,
+        0.024701535810283535,
+        0.0420032310177706,
+        0.10711563064667168,
+        0.2382059800664452,
+        0.9767441860465116
+      ]
+    },
+    "pkis2_gt90_scaffold": {
+      "abstained_realized_bounded_mean_delta": 0.0075452716297786685,
+      "coverage_count": 143,
+      "coverage_rate": 0.2234375,
+      "n": 640,
+      "query_max_similarity_quantiles": [
+        0.20588235294117646,
+        0.35185185185185186,
+        0.4915254237288136,
+        0.625,
+        0.7070016820857863,
+        0.7893463344167571,
+        0.975609756097561
+      ],
+      "selected_realized_bounded_mean_delta": 0.030419580419580417,
+      "support_pvalue_quantiles": [
+        0.0015625,
+        0.04257940573770492,
+        0.1171875,
+        0.2519561815336463,
+        0.496875,
+        0.7514162103363453,
+        0.990625
+      ]
+    },
+    "pkis2_gt90_standard": {
+      "abstained_realized_bounded_mean_delta": 0.004947916666666666,
+      "coverage_count": 64,
+      "coverage_rate": 0.1,
+      "n": 640,
+      "query_max_similarity_quantiles": [
+        0.20588235294117646,
+        0.47492767598842817,
+        0.6263992537313433,
+        0.7080128205128206,
+        0.7914598842018197,
+        0.84,
+        0.975609756097561
+      ],
+      "selected_realized_bounded_mean_delta": 0.023437499999999997,
+      "support_pvalue_quantiles": [
+        0.0015625,
+        0.10281250000000001,
+        0.25234375,
+        0.50078125,
+        0.7476562499999999,
+        0.9,
+        0.990625
+      ]
+    }
+  },
+  "interpretation_scope": "Final prospectively specified post hoc model-development experiment; retrospective within-panel binding-liability discovery only.",
+  "models": [
+    "ORIGINAL_MARGINAL",
+    "ORIGINAL_COVERAGE",
+    "BOUNDED_COVERAGE",
+    "RISK_CONTROLLED_COVERAGE"
+  ],
+  "parameters": {
+    "bootstrap": 10000,
+    "chemical_weight_beta": 8.0,
+    "conformal_alpha": 0.1,
+    "master_seed": 20260905,
+    "maximum_marginal_rank_displacement": 9,
+    "permutations": 100000,
+    "stability_reference_fraction": 0.8,
+    "stability_replicates": 50,
+    "support_score": "nearest eligible-reference Morgan Tanimoto"
+  },
+  "runtime_seconds": 58.21164298057556,
+  "stability": {
+    "condition": "pkis2_gt90_chemotype",
+    "difference_ci95": [
+      -0.02401799774879243,
+      -0.00920748885704563
+    ],
+    "mean_bounded_top10_jaccard": 0.7632796587093462,
+    "mean_difference_controlled_minus_original": -0.01657497950911748,
+    "mean_gate_decision_agreement": 0.9494687500000001,
+    "mean_original_top10_jaccard": 0.7883519865551116,
+    "mean_risk_controlled_top10_jaccard": 0.7717770070459942,
+    "n": 640,
+    "subsamples_per_case": 50
+  },
+  "status": "FROZEN_MODEL_EVALUATION_COMPLETE"
+}

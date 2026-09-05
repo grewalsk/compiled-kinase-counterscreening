@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "bytes": 6920,
+      "path": "SAFE_COVERAGE_PROTOCOL.md",
+      "sha256": "ff96346fc6da1d93afec311d32ff27a68744ed9ff60b0216f4b79ef260f43fa8"
+    },
+    {
+      "bytes": 196777,
+      "path": "case_metrics.csv.gz",
+      "sha256": "c658a73604ccb549f81390300167d43431bfc74953f1e66cfae2cbba6363a3e0"
+    },
+    {
+      "bytes": 5569,
+      "path": "comparison_summary.csv",
+      "sha256": "7a2c2f177f005fb2063f63ff2905b85486e83f98c27c94597a06cccdc584f0c1"
+    },
+    {
+      "bytes": 319,
+      "path": "environment.json",
+      "sha256": "eb9c832bb683d887fa56a304711476f8e86cc1eb637205f48c29f20d5e4423d2"
+    },
+    {
+      "bytes": 97980,
+      "path": "figures/condition_effects.png",
+      "sha256": "cc517edf32197bb12dab7f4b5c59af64b4f1bd35590bd231b9505c446bc5d4fa"
+    },
+    {
+      "bytes": 145469,
+      "path": "figures/gate_calibration.png",
+      "sha256": "b971ffb74051483047058068c7afbea9c1e8e7e764cc2a8f696a473cbed9040c"
+    },
+    {
+      "bytes": 166954,
+      "path": "figures/stability_comparison.png",
+      "sha256": "af7f14dff09d70e9f02026a2122173ad04c19fdb3308e4f4158ea1a86f424f23"
+    },
+    {
+      "bytes": 157623,
+      "path": "gate_diagnostics.csv.gz",
+      "sha256": "d2d69af2f786761ad76406cc9cfae81541792da7101e43ffc0da04ecc681411e"
+    },
+    {
+      "bytes": 11169,
+      "path": "stability_diagnostics.csv.gz",
+      "sha256": "6f4eafbe6b0550a59db089aef00d9f17f35d07d7792f61471acc0fb47c7d4ba5"
+    },
+    {
+      "bytes": 18532,
+      "path": "summary.json",
+      "sha256": "cfedbe86d9d9562b04676d4983ffcb77cb0f4b8d463cd0ba794fd95122337f22"
+    }
+  ]
+}

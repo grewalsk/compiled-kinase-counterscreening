@@ -1,0 +1,290 @@
+{
+  "chemical_shift_macro_effect": {
+    "ci95": [
+      -0.011306179775280898,
+      0.006109550561797755
+    ],
+    "estimate": -0.0025983146067415715,
+    "n": 356,
+    "permutation_p_two_sided": 0.5726642733572664
+  },
+  "comparisons": {
+    "pkis1_gt80_sensitivity": {
+      "bounded_minus_marginal": {
+        "ci95": [
+          -0.030617977528089882,
+          -0.011657303370786515
+        ],
+        "comparison": "bounded_minus_marginal",
+        "condition": "pkis1_gt80_sensitivity",
+        "estimate": -0.020646067415730336,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 25,
+        "mean_assays_earlier": -0.41292134831460675,
+        "n": 356,
+        "permutation_p_holm_four_conditions": 3.999960000399996e-05,
+        "permutation_p_two_sided": 9.99990000099999e-06,
+        "ties": 327,
+        "wins": 4
+      },
+      "bounded_minus_unbounded": {
+        "ci95": [
+          0.009550561797752809,
+          0.027949438202247188
+        ],
+        "comparison": "bounded_minus_unbounded",
+        "condition": "pkis1_gt80_sensitivity",
+        "estimate": 0.018117977528089888,
+        "large_advance_ge_10": 5,
+        "large_delay_ge_10": 0,
+        "losses": 1,
+        "mean_assays_earlier": 0.36235955056179775,
+        "n": 356,
+        "permutation_p_two_sided": 3.999960000399996e-05,
+        "ties": 335,
+        "wins": 20
+      },
+      "unbounded_minus_marginal": {
+        "ci95": [
+          -0.057865168539325836,
+          -0.022331460674157304
+        ],
+        "comparison": "unbounded_minus_marginal",
+        "condition": "pkis1_gt80_sensitivity",
+        "estimate": -0.03876404494382022,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 14,
+        "losses": 27,
+        "mean_assays_earlier": -0.7752808988764045,
+        "n": 356,
+        "permutation_p_two_sided": 1.999980000199998e-05,
+        "ties": 326,
+        "wins": 3
+      }
+    },
+    "pkis1_gt90_leave10_nearest": {
+      "bounded_minus_marginal": {
+        "ci95": [
+          -0.014466292134831459,
+          0.00800561797752809
+        ],
+        "comparison": "bounded_minus_marginal",
+        "condition": "pkis1_gt90_leave10_nearest",
+        "estimate": -0.0032303370786516865,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 29,
+        "mean_assays_earlier": -0.06460674157303371,
+        "n": 356,
+        "permutation_p_holm_four_conditions": 1.0,
+        "permutation_p_two_sided": 0.5871141288587114,
+        "ties": 285,
+        "wins": 42
+      },
+      "bounded_minus_unbounded": {
+        "ci95": [
+          -0.0007022471910112353,
+          0.01558988764044944
+        ],
+        "comparison": "bounded_minus_unbounded",
+        "condition": "pkis1_gt90_leave10_nearest",
+        "estimate": 0.007162921348314607,
+        "large_advance_ge_10": 2,
+        "large_delay_ge_10": 0,
+        "losses": 12,
+        "mean_assays_earlier": 0.14325842696629212,
+        "n": 356,
+        "permutation_p_two_sided": 0.0954090459095409,
+        "ties": 319,
+        "wins": 25
+      },
+      "unbounded_minus_marginal": {
+        "ci95": [
+          -0.028089887640449437,
+          0.005761938202247142
+        ],
+        "comparison": "unbounded_minus_marginal",
+        "condition": "pkis1_gt90_leave10_nearest",
+        "estimate": -0.010393258426966295,
+        "large_advance_ge_10": 3,
+        "large_delay_ge_10": 11,
+        "losses": 30,
+        "mean_assays_earlier": -0.20786516853932585,
+        "n": 356,
+        "permutation_p_two_sided": 0.24024759752402475,
+        "ties": 285,
+        "wins": 41
+      }
+    },
+    "pkis1_gt90_scaffold": {
+      "bounded_minus_marginal": {
+        "ci95": [
+          -0.01039325842696629,
+          0.006320224719101123
+        ],
+        "comparison": "bounded_minus_marginal",
+        "condition": "pkis1_gt90_scaffold",
+        "estimate": -0.0019662921348314595,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 16,
+        "mean_assays_earlier": -0.03932584269662921,
+        "n": 356,
+        "permutation_p_holm_four_conditions": 1.0,
+        "permutation_p_two_sided": 0.6741432585674143,
+        "ties": 327,
+        "wins": 13
+      },
+      "bounded_minus_unbounded": {
+        "ci95": [
+          6.617287866226144e-19,
+          0.011235955056179775
+        ],
+        "comparison": "bounded_minus_unbounded",
+        "condition": "pkis1_gt90_scaffold",
+        "estimate": 0.005196629213483147,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 5,
+        "mean_assays_earlier": 0.10393258426966293,
+        "n": 356,
+        "permutation_p_two_sided": 0.07696923030769692,
+        "ties": 338,
+        "wins": 13
+      },
+      "unbounded_minus_marginal": {
+        "ci95": [
+          -0.020087780898876403,
+          0.0043539325842696635
+        ],
+        "comparison": "unbounded_minus_marginal",
+        "condition": "pkis1_gt90_scaffold",
+        "estimate": -0.007162921348314606,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 5,
+        "losses": 15,
+        "mean_assays_earlier": -0.14325842696629212,
+        "n": 356,
+        "permutation_p_two_sided": 0.2786572134278657,
+        "ties": 328,
+        "wins": 13
+      }
+    },
+    "pkis1_gt90_standard": {
+      "bounded_minus_marginal": {
+        "ci95": [
+          -0.011516853932584269,
+          0.004353932584269663
+        ],
+        "comparison": "bounded_minus_marginal",
+        "condition": "pkis1_gt90_standard",
+        "estimate": -0.0035112359550561784,
+        "large_advance_ge_10": 0,
+        "large_delay_ge_10": 0,
+        "losses": 13,
+        "mean_assays_earlier": -0.0702247191011236,
+        "n": 356,
+        "permutation_p_holm_four_conditions": 1.0,
+        "permutation_p_two_sided": 0.4044759552404476,
+        "ties": 331,
+        "wins": 12
+      },
+      "bounded_minus_unbounded": {
+        "ci95": [
+          0.0012640449438202253,
+          0.012359550561797755
+        ],
+        "comparison": "bounded_minus_unbounded",
+        "condition": "pkis1_gt90_standard",
+        "estimate": 0.006179775280898877,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 0,
+        "losses": 3,
+        "mean_assays_earlier": 0.12359550561797752,
+        "n": 356,
+        "permutation_p_two_sided": 0.027789722102778972,
+        "ties": 341,
+        "wins": 12
+      },
+      "unbounded_minus_marginal": {
+        "ci95": [
+          -0.022331460674157304,
+          0.0014044943820224719
+        ],
+        "comparison": "unbounded_minus_marginal",
+        "condition": "pkis1_gt90_standard",
+        "estimate": -0.009691011235955055,
+        "large_advance_ge_10": 1,
+        "large_delay_ge_10": 5,
+        "losses": 13,
+        "mean_assays_earlier": -0.19382022471910113,
+        "n": 356,
+        "permutation_p_two_sided": 0.12862871371286286,
+        "ties": 331,
+        "wins": 12
+      }
+    }
+  },
+  "dataset": {
+    "blank_units_retained": 49,
+    "collapsed_missing_values": 39,
+    "compounds": 356,
+    "excluded_development_overlap_structures": 8,
+    "filtered_1uM_nanosyn_rows": 82656,
+    "license": "ChEMBL CC BY-SA 3.0",
+    "parent_targets": 200,
+    "raw_missing_values": 49,
+    "raw_rows": 168717,
+    "raw_values_above_100": 47,
+    "raw_values_below_zero": 11784,
+    "retained_parent_structures": 356,
+    "source": "Zhang et al. 2019 archived raw ChEMBL PKIS1 Nanosyn panel",
+    "source_assays": 224,
+    "source_commit": "5fd3934f5789c371026fc9eece1846ff1294122b",
+    "source_compound_ids": 366,
+    "source_sha256": "81d7f9f82f7ee8e6b0f38dafe523da7254aaabe9449758a056372511d7868ad0",
+    "standardized_parent_structures_before_overlap_exclusion": 364,
+    "targets": 200,
+    "task_language": "first strong biochemical kinase profile-activity discovery"
+  },
+  "displacement_guarantee_verified": true,
+  "frozen_external_success_criteria": {
+    "composite_success": false,
+    "each_shift_nonnegative_and_noninferior": false,
+    "gt80_sensitivity_nonnegative_and_noninferior": false,
+    "gt90_standard_nonnegative_and_noninferior": false,
+    "positive_shift_macro_ci_excludes_zero": false,
+    "zero_large_delays_all_conditions": true
+  },
+  "interpretation_scope": "Retrospective external validation on a separate PKIS1 compound panel; biochemical within-panel kinase profile-activity discovery only.",
+  "models": [
+    "MARGINAL",
+    "UNBOUNDED_COVERAGE",
+    "BOUNDED_COVERAGE"
+  ],
+  "parameters": {
+    "bootstrap": 10000,
+    "chemical_weight_beta": 8.0,
+    "master_seed": 20260905,
+    "max_budget": 20,
+    "maximum_marginal_rank_displacement": 9,
+    "permutations": 100000,
+    "stability_reference_fraction": 0.8,
+    "stability_replicates": 50
+  },
+  "runtime_seconds": 15.071168899536133,
+  "stability": {
+    "condition": "pkis1_gt90_scaffold",
+    "difference_ci95": [
+      -0.009723325838349808,
+      0.005164572057706568
+    ],
+    "mean_bounded_top10_jaccard": 0.8334350469975057,
+    "mean_difference_bounded_minus_unbounded": -0.0023091339152145427,
+    "mean_unbounded_top10_jaccard": 0.8357441809127204,
+    "n": 356,
+    "subsamples_per_case": 50
+  },
+  "status": "FROZEN_EXTERNAL_VALIDATION_COMPLETE"
+}
