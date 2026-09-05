@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/compiled_profile_coverage_colab.ipynb)
 
-[![Open invariant-model audit in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/invariant_coverage_colab.ipynb)
+[![Open invariant-model audit in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grewalsk/compiled-kinase-counterscreening/blob/main/notebooks/invariant_coverage_colab_public.ipynb)
 
 Reproducible CPU-only benchmark of sequential kinase counter-screen selection.
 The scientific task is retrospective: given a compound structure, documented
@@ -43,11 +43,13 @@ check execution; smoke-test estimates are not paper results.
 
 ## Exploratory invariant-model audit
 
-`notebooks/invariant_coverage_colab.ipynb` evaluates similarity-stratified
-group-averaged weights and a reference-only pseudo-holdout gate on all eight
-existing conditions. Upload `invariant_coverage_colab_bundle.zip` when
-prompted. The complete CPU run takes about five minutes after dependency
-installation and costs USD 0.
+`notebooks/invariant_coverage_colab_public.ipynb` is the one-click public
+launcher for the similarity-stratified group-averaging experiment and its
+reference-only pseudo-holdout gate. It downloads and verifies the separately
+frozen bundle, runs all eight conditions, performs the explicitly post-run
+absolute-baseline audit, and downloads the complete artifacts. The full run is
+CPU-only and costs USD 0. `notebooks/invariant_coverage_colab.ipynb` is retained
+unchanged as the prospectively frozen pre-result entry point.
 
 This experiment is a documented negative result. Its frozen within-family
 criteria passed, but an absolute-baseline audit showed that group averaging
