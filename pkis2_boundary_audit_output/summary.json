@@ -1,0 +1,167 @@
+{
+  "bounded_effects": [
+    {
+      "ci95": [
+        0.021171875,
+        0.04140625
+      ],
+      "ci95_high": 0.04140625,
+      "ci95_low": 0.021171875,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__ge80__chemotype",
+      "estimate": 0.031015625,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 41,
+      "mean_assays_earlier": 0.6203125,
+      "n": 640,
+      "p_holm_8": 7.999920000799993e-05,
+      "permutation_p_two_sided": 9.99990000099999e-06,
+      "ties": 465,
+      "wins": 134
+    },
+    {
+      "ci95": [
+        -0.00703125,
+        0.0084375
+      ],
+      "ci95_high": 0.0084375,
+      "ci95_low": -0.00703125,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__ge80__standard",
+      "estimate": 0.0006250000000000006,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 45,
+      "mean_assays_earlier": 0.0125,
+      "n": 640,
+      "p_holm_8": 0.8903810961890382,
+      "permutation_p_two_sided": 0.8903810961890382,
+      "ties": 532,
+      "wins": 63
+    },
+    {
+      "ci95": [
+        0.026093749999999992,
+        0.047812499999999994
+      ],
+      "ci95_high": 0.047812499999999994,
+      "ci95_low": 0.026093749999999992,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__ge90__chemotype",
+      "estimate": 0.03671874999999999,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 34,
+      "mean_assays_earlier": 0.734375,
+      "n": 640,
+      "p_holm_8": 7.999920000799993e-05,
+      "permutation_p_two_sided": 9.99990000099999e-06,
+      "ties": 445,
+      "wins": 161
+    },
+    {
+      "ci95": [
+        -0.001562500000000001,
+        0.013906249999999998
+      ],
+      "ci95_high": 0.013906249999999998,
+      "ci95_low": -0.001562500000000001,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__ge90__standard",
+      "estimate": 0.0061718749999999985,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 41,
+      "mean_assays_earlier": 0.1234375,
+      "n": 640,
+      "p_holm_8": 0.3586164138358616,
+      "permutation_p_two_sided": 0.11953880461195387,
+      "ties": 526,
+      "wins": 73
+    },
+    {
+      "ci95": [
+        0.021328125000000003,
+        0.04234375
+      ],
+      "ci95_high": 0.04234375,
+      "ci95_low": 0.021328125000000003,
+      "comparison": "bounded_minus_marginal",
+      "condition": "parent__ge80__chemotype",
+      "estimate": 0.031875,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 43,
+      "mean_assays_earlier": 0.6375,
+      "n": 640,
+      "p_holm_8": 7.999920000799993e-05,
+      "permutation_p_two_sided": 9.99990000099999e-06,
+      "ties": 462,
+      "wins": 135
+    },
+    {
+      "ci95": [
+        -0.0039062499999999987,
+        0.011796875000000002
+      ],
+      "ci95_high": 0.011796875000000002,
+      "ci95_low": -0.0039062499999999987,
+      "comparison": "bounded_minus_marginal",
+      "condition": "parent__ge80__standard",
+      "estimate": 0.003984375,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 45,
+      "mean_assays_earlier": 0.0796875,
+      "n": 640,
+      "p_holm_8": 0.6781332186678133,
+      "permutation_p_two_sided": 0.33906660933390664,
+      "ties": 527,
+      "wins": 68
+    },
+    {
+      "ci95": [
+        0.024451171874999993,
+        0.04648437499999999
+      ],
+      "ci95_high": 0.04648437499999999,
+      "ci95_low": 0.024451171874999993,
+      "comparison": "bounded_minus_marginal",
+      "condition": "parent__ge90__chemotype",
+      "estimate": 0.0353125,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 36,
+      "mean_assays_earlier": 0.70625,
+      "n": 640,
+      "p_holm_8": 7.999920000799993e-05,
+      "permutation_p_two_sided": 9.99990000099999e-06,
+      "ties": 444,
+      "wins": 160
+    },
+    {
+      "ci95": [
+        -0.00039062500000000035,
+        0.01515625
+      ],
+      "ci95_high": 0.01515625,
+      "ci95_low": -0.00039062500000000035,
+      "comparison": "bounded_minus_marginal",
+      "condition": "parent__ge90__standard",
+      "estimate": 0.007421874999999999,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 42,
+      "mean_assays_earlier": 0.1484375,
+      "n": 640,
+      "p_holm_8": 0.2631973680263197,
+      "permutation_p_two_sided": 0.06579934200657993,
+      "ties": 523,
+      "wins": 75
+    }
+  ],
+  "complete_grid": true,
+  "label_rule": "greater than or equal to boundary",
+  "status": "EXPLORATORY_POSTHOC_BOUNDARY_AUDIT_COMPLETE"
+}

@@ -8,9 +8,10 @@
 
 Reproducible CPU-only benchmark of sequential kinase counter-screen selection.
 The scientific task is retrospective: given a compound structure, documented
-direct kinase targets, and a limited assay budget, rank which other kinase in
-a common Kinobeads panel should be measured next to discover a binding
-liability relative to the compound's measured on-target affinity.
+direct kinase targets, and a limited assay budget, rank which other target in
+a common kinase-drug Kinobeads panel should be measured next to discover an
+operational relative-affinity event. This study-defined event is not a safety
+margin.
 
 This project does **not** infer biochemical inhibition, cellular target
 engagement, therapeutic benefit, toxicity, or clinical safety. It does not
@@ -39,7 +40,9 @@ Start with:
 - `PKIS1_EXTERNAL_VALIDATION_RESULTS.md`: external result and robustness;
 - `RISK_CONTROLLED_COVERAGE_RESULTS.md`: development result;
 - `notebooks/rank_deadline_coverage_colab.ipynb`: end-to-end CPU rerun;
-- `BOUNDED_COVERAGE_EXPERT_REVIEW.md`: required biological review, still open.
+- `BIOLOGICAL_VALIDITY_REVIEW.md`: completed source/data semantics and case
+  review, with the remaining independent-human-attestation boundary;
+- `BOUNDED_COVERAGE_EXPERT_REVIEW.md`: original review checklist and status.
 
 No GPU, paid API, or model training is needed. A standard Colab CPU is the
 recommended runtime.
@@ -128,6 +131,14 @@ logs make interrupted runs obvious.
 - `ETHICS_AND_RISKS.md`: biosafety, misuse, licensing, and scientific-validity
   risk assessment.
 - `EXPERT_REVIEW.md`: mandatory kinase-assay review checklist.
+- `BIOLOGICAL_VALIDITY_REVIEW.md`: completed literature/data-semantics review
+  and exact boundary on remaining independent human attestation.
+- `src/audit_biological_validity.py`: construct map, threshold-boundary census,
+  flagged-case selection, and source-record export.
+- `src/audit_pkis2_constructs.py`: frozen 406-assay PKIS2 resolution audit.
+- `src/audit_pkis2_boundaries.py`: complete post hoc inclusive-boundary grid.
+- `biological_validity_review_output/`, `pkis2_construct_audit_output/`, and
+  `pkis2_boundary_audit_output/`: machine-readable audit results and manifests.
 - `src/extract_panel.py`: read-only extraction from ChEMBL 30.
 - `src/validate_dataset.py`: independent compact-dataset validator.
 - `src/run_study.py`: frozen policies, statistics, plots, and go/no-go report.
@@ -143,11 +154,12 @@ logs make interrupted runs obvious.
 
 `output/summary.json` is the frozen decision source;
 `posthoc_output/summary.json` contains only explicitly post-result attribution
-and stress tests. A computational pass still is not a biological-validation
-pass: `EXPERT_REVIEW.md` must be completed, and the study must be framed as
-measured within-panel binding-liability discovery. The frozen primary contrast
-passes, but its attribution and safe-clearance claims do not. That mixed result
-is the paper rather than a failure to be hidden.
+and stress tests. The submission-facing audit is
+`BIOLOGICAL_VALIDITY_REVIEW.md`: it completes the reproducible source/data
+checks but is not independent human attestation or biological validation. The
+study is framed as measured within-panel operational-event discovery. The
+frozen primary contrast passes, but its attribution and safe-clearance claims
+do not. That mixed result is the paper rather than a failure to be hidden.
 
 ## Licensing and attribution
 

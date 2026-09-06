@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "bytes": 5961,
+      "path": "construct_groups.csv",
+      "sha256": "2ffd799a107c11ccc825f9206171b76149d505c47fa896a7b3730fef93dc8c91"
+    },
+    {
+      "bytes": 17389,
+      "path": "external_flagged_cases.csv",
+      "sha256": "27ab510954fa330d4810723205414c0403dd557fb64132dacff8c6b6640a9870"
+    },
+    {
+      "bytes": 65260,
+      "path": "flagged_case_first_hit_source_records.csv",
+      "sha256": "9fece93b419241254c6778e6abbed3c1bad073751182e5fdb0459045d17fd64f"
+    },
+    {
+      "bytes": 358,
+      "path": "pkis1_construct_discordance.csv",
+      "sha256": "0b177df8ae9e56caf50fb3f886c5a4acca8a164f31714452d3e53ccd8a182b7f"
+    },
+    {
+      "bytes": 3791,
+      "path": "summary.json",
+      "sha256": "d4b9286199c83a6490ef63f3f41fc1719a5eeb6d925330aaacdc39a05919d35c"
+    },
+    {
+      "bytes": 513,
+      "path": "threshold_boundaries.csv",
+      "sha256": "d87ac65c0128851b00bc61090266d1f70de110f976546c05041ac002d97b0601"
+    }
+  ]
+}

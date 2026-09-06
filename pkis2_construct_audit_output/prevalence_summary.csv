@@ -1,0 +1,5 @@
+condition,exclusion,n,mean_positive_constructs,median_positive_constructs,fraction_compounds_with_any_positive,mean_positive_fraction_among_observed
+construct__gt90__standard,standard,640,11.7625,5.0,0.8890625,0.028971674876847292
+construct__gt80__standard,standard,640,16.2484375,8.0,0.9359375,0.04002078201970443
+construct__gt90__scaffold,scaffold,640,11.7625,5.0,0.8890625,0.028971674876847292
+construct__gt90__chemotype,chemotype,640,11.7625,5.0,0.8890625,0.028971674876847292

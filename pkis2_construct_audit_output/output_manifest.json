@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "bytes": 2300,
+      "path": "PKIS2_CONSTRUCT_AUDIT_PROTOCOL.md",
+      "sha256": "93ce0267540f7503c1033911bb98b14dcfb50c57bb0e6b6dc70173708d11e995"
+    },
+    {
+      "bytes": 217990,
+      "path": "case_metrics.csv.gz",
+      "sha256": "a55330ae0f6f37ff4179873ff578c787569e0c625cabe4361f7ff891f0b01c49"
+    },
+    {
+      "bytes": 1848,
+      "path": "comparison_summary.csv",
+      "sha256": "72fb15277a19a50332a72cecc0bc26eecd12c0bf3a159a80ed528972fe42fbd6"
+    },
+    {
+      "bytes": 374,
+      "path": "environment.json",
+      "sha256": "bf1ff18bd5e145e18147807721222aa1229983b14fd12bc7a6e7d76ad0e8d21d"
+    },
+    {
+      "bytes": 4576,
+      "path": "metric_effects.csv",
+      "sha256": "873f871e39a18488331a6132a3615d2a86d6b11e88c08363476a8c1bd73e49b0"
+    },
+    {
+      "bytes": 481,
+      "path": "prevalence_summary.csv",
+      "sha256": "d26195b740fce3867ac704bb55430cfd8c6828bb0a3d670da27a534f139cb00b"
+    },
+    {
+      "bytes": 3035,
+      "path": "summary.json",
+      "sha256": "d7e09089d88c2c9c3b60ca73b6d62da2dd155d7e1ba1330aa8a74700790114f5"
+    }
+  ]
+}

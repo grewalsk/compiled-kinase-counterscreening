@@ -1,0 +1,3 @@
+panel,threshold,multi_construct_parents,compound_parent_cells_with_at_least_two_constructs,construct_discordant_cells,construct_discordant_fraction,any_construct_positive_cells,all_observed_constructs_positive_cells
+PKIS1 retained external set,>80,11,3912,230,0.058793456032719835,271,41
+PKIS1 retained external set,>90,11,3912,134,0.03425357873210634,139,5

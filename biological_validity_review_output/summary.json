@@ -1,0 +1,124 @@
+{
+  "external_candidate_completeness": [
+    {
+      "condition": "pkis1_gt80_sensitivity",
+      "count": 356,
+      "max": 200,
+      "mean": 199.89044943820224,
+      "min": 198
+    },
+    {
+      "condition": "pkis1_gt90_leave10_nearest",
+      "count": 356,
+      "max": 200,
+      "mean": 199.89044943820224,
+      "min": 198
+    },
+    {
+      "condition": "pkis1_gt90_scaffold",
+      "count": 356,
+      "max": 200,
+      "mean": 199.89044943820224,
+      "min": 198
+    },
+    {
+      "condition": "pkis1_gt90_standard",
+      "count": 356,
+      "max": 200,
+      "mean": 199.89044943820224,
+      "min": 198
+    }
+  ],
+  "flagged_case_rows": 63,
+  "flagged_first_hit_source_record_rows": 288,
+  "independent_human_kinase_expert_attestation": false,
+  "limitations": [
+    "This is a reproducible literature/data audit, not independent human expert sign-off.",
+    "Parent maximum collapse defines an any-profiled-construct endpoint and does not establish construct interchangeability.",
+    "Single-concentration percent inhibition and relative-affinity events are operational labels, not potency, cellular engagement, toxicity, or therapeutic-window claims."
+  ],
+  "pkis1_construct_discordance": [
+    {
+      "all_observed_constructs_positive_cells": 41,
+      "any_construct_positive_cells": 271,
+      "compound_parent_cells_with_at_least_two_constructs": 3912,
+      "construct_discordant_cells": 230,
+      "construct_discordant_fraction": 0.058793456032719835,
+      "multi_construct_parents": 11,
+      "panel": "PKIS1 retained external set",
+      "threshold": ">80"
+    },
+    {
+      "all_observed_constructs_positive_cells": 5,
+      "any_construct_positive_cells": 139,
+      "compound_parent_cells_with_at_least_two_constructs": 3912,
+      "construct_discordant_cells": 134,
+      "construct_discordant_fraction": 0.03425357873210634,
+      "multi_construct_parents": 11,
+      "panel": "PKIS1 retained external set",
+      "threshold": ">90"
+    }
+  ],
+  "pkis1_multi_construct_parent_groups": 11,
+  "pkis2_multi_construct_parent_groups": 13,
+  "status": "COMPUTATIONAL_AND_SOURCE_SEMANTICS_REVIEW_COMPLETE",
+  "threshold_boundary_counts": [
+    {
+      "boundary": 80,
+      "dataset": "PKIS1 selected raw rows",
+      "exact_boundary_cells": 1,
+      "fraction_exact_boundary": 1.210551163944944e-05,
+      "observed_cells": 82607
+    },
+    {
+      "boundary": 90,
+      "dataset": "PKIS1 selected raw rows",
+      "exact_boundary_cells": 0,
+      "fraction_exact_boundary": 0.0,
+      "observed_cells": 82607
+    },
+    {
+      "boundary": 80,
+      "dataset": "PKIS1 retained parent matrix",
+      "exact_boundary_cells": 1,
+      "fraction_exact_boundary": 1.4052641193912397e-05,
+      "observed_cells": 71161
+    },
+    {
+      "boundary": 90,
+      "dataset": "PKIS1 retained parent matrix",
+      "exact_boundary_cells": 0,
+      "fraction_exact_boundary": 0.0,
+      "observed_cells": 71161
+    },
+    {
+      "boundary": 80,
+      "dataset": "PKIS1 retained construct matrix",
+      "exact_boundary_cells": 1,
+      "fraction_exact_boundary": 1.254752374618869e-05,
+      "observed_cells": 79697
+    },
+    {
+      "boundary": 90,
+      "dataset": "PKIS1 retained construct matrix",
+      "exact_boundary_cells": 0,
+      "fraction_exact_boundary": 0.0,
+      "observed_cells": 79697
+    },
+    {
+      "boundary": 80,
+      "dataset": "PKIS2 raw workbook cells",
+      "exact_boundary_cells": 275,
+      "fraction_exact_boundary": 0.0010501353719961355,
+      "observed_cells": 261871
+    },
+    {
+      "boundary": 90,
+      "dataset": "PKIS2 raw workbook cells",
+      "exact_boundary_cells": 169,
+      "fraction_exact_boundary": 0.000645355919517625,
+      "observed_cells": 261871
+    }
+  ],
+  "unbounded_large_delay_case_condition_rows": 35
+}

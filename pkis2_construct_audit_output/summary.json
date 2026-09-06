@@ -1,0 +1,101 @@
+{
+  "bounded_effects": [
+    {
+      "ci95": [
+        -0.0024218750000000004,
+        0.013046875
+      ],
+      "ci95_high": 0.013046875,
+      "ci95_low": -0.0024218750000000004,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__gt90__standard",
+      "estimate": 0.0052343749999999994,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 42,
+      "mean_assays_earlier": 0.1046875,
+      "n": 640,
+      "p_holm_4_bounded_conditions": 0.3999560004399956,
+      "permutation_p_two_sided": 0.1999780002199978,
+      "ties": 525,
+      "wins": 73
+    },
+    {
+      "ci95": [
+        -0.006562499999999997,
+        0.008515625000000002
+      ],
+      "ci95_high": 0.008515625000000002,
+      "ci95_low": -0.006562499999999997,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__gt80__standard",
+      "estimate": 0.0010156250000000013,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 42,
+      "mean_assays_earlier": 0.0203125,
+      "n": 640,
+      "p_holm_4_bounded_conditions": 0.8086419135808642,
+      "permutation_p_two_sided": 0.8086419135808642,
+      "ties": 540,
+      "wins": 58
+    },
+    {
+      "ci95": [
+        0.002578124999999997,
+        0.019296874999999998
+      ],
+      "ci95_high": 0.019296874999999998,
+      "ci95_low": 0.002578124999999997,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__gt90__scaffold",
+      "estimate": 0.010937499999999998,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 46,
+      "mean_assays_earlier": 0.21875,
+      "n": 640,
+      "p_holm_4_bounded_conditions": 0.03422965770342296,
+      "permutation_p_two_sided": 0.011409885901140988,
+      "ties": 490,
+      "wins": 104
+    },
+    {
+      "ci95": [
+        0.03359374999999999,
+        0.05539062499999999
+      ],
+      "ci95_high": 0.05539062499999999,
+      "ci95_low": 0.03359374999999999,
+      "comparison": "bounded_minus_marginal",
+      "condition": "construct__gt90__chemotype",
+      "estimate": 0.044218749999999994,
+      "large_advance_ge_10": 0,
+      "large_delay_ge_10": 0,
+      "losses": 28,
+      "mean_assays_earlier": 0.884375,
+      "n": 640,
+      "p_holm_4_bounded_conditions": 3.999960000399996e-05,
+      "permutation_p_two_sided": 9.99990000099999e-06,
+      "ties": 443,
+      "wins": 169
+    }
+  ],
+  "cannot_change_external_validation_verdict": true,
+  "conditions": [
+    "construct__gt90__standard",
+    "construct__gt80__standard",
+    "construct__gt90__scaffold",
+    "construct__gt90__chemotype"
+  ],
+  "dataset": {
+    "assay_constructs": 406,
+    "license": "CC BY 4.0",
+    "parent_structures": 640,
+    "source": "Drewry et al. 2017 PLOS ONE Supporting Table S4",
+    "source_sha256": "48ead22a1f860cd0d5096fa87d5acd329f722fe8d65e693bb0be682a333e2a2c",
+    "target_resolution": "source assay construct"
+  },
+  "runtime_seconds": 7.829779148101807,
+  "status": "FROZEN_POSTRESULT_BIOLOGICAL_VALIDITY_AUDIT_COMPLETE"
+}

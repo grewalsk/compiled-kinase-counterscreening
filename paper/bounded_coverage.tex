@@ -64,13 +64,13 @@ profile activity? This is active search rather than full-matrix prediction
 \citep{garnett2012}. A marginal ranker tests kinases with the largest estimated
 activity probability. A profile-coverage ranker instead avoids assays that hit
 the same reference compounds, potentially exposing chemically distinct
-liability patterns sooner. The latter is a monotone submodular-coverage idea
+profile-activity patterns sooner. The latter is a monotone submodular-coverage idea
 \citep{nemhauser1978,azargamzu2011}, but unconstrained diversification can move
 an individually strong assay arbitrarily far down the queue.
 
 This tradeoff is consequential in drug discovery: an average gain cannot
 justify a policy that occasionally spends many extra experiments before
-finding a liability. We therefore ask whether profile diversity can be used
+finding an operational event. We therefore ask whether profile diversity can be used
 inside an explicit marginal-rank trust region. We contribute:
 
 \begin{enumerate}
@@ -136,7 +136,7 @@ selecting an eligible future target before a deadline creates no backlog.
 Thus displacement is at most $K$. If marginal's first positive rank $r^*$ has
 $r^*+K<B$, it is tested by that position. Otherwise censoring bounded cost at
 $B+1$ gives delay $B-r^*\le K$. If marginal finds no positive by $B$, positive
-delay is impossible.
+delay is impossible.\qedhere
 \end{proof}
 
 This is an outcome-independent safety property. It does not prove that the
@@ -147,15 +147,18 @@ experiment tests exactly that missing premise.
 
 \paragraph{Panels and biological endpoints.}
 We never pool assay modalities. \textbf{Klaeger/ChEMBL 30} contains 111
-clinical kinase-drug parent structures and 146 commonly measured kinases
-\citep{klaeger2017,zdrazil2024}. A recorded binding liability is an exact
-$K_d$ within tenfold of the compound's best measured documented-target $K_d$;
+clinical kinase-drug parent structures and 146 commonly measured targets
+annotated to a protein-kinase class in ChEMBL 30
+\citep{klaeger2017,zdrazil2024}. An operational relative-affinity event is an
+exact $K_d$ within tenfold of the compound's best measured documented-target $K_d$;
 documented targets are excluded from candidates. \textbf{PKIS2} contributes
-640 parent structures and 392 parent kinases from 1~$\mu$M percent-inhibition
-profiles \citep{drewry2017}; activity is strictly $>90\%$, with $>80\%$
+640 parent structures and 392 parent labels from 1~$\mu$M percent-inhibition
+profiles \citep{drewry2017}; a parent event means any profiled state, domain,
+or construct exceeds the threshold. Activity is strictly $>90\%$, with $>80\%$
 sensitivity. \textbf{PKIS1 external} comes from the authors' archived raw
 Nanosyn 1~$\mu$M file \citep{elkins2016,zhang2019}. Repeat assays are averaged,
-constructs sharing a parent target are max-collapsed, salts are reduced to the
+constructs sharing a parent target are max-collapsed to the same explicit
+any-construct endpoint, salts are reduced to the
 largest organic fragment, and duplicate parent structures are median-collapsed.
 Eight structures present in PKIS2 and none present in Klaeger are removed,
 leaving 356 structures and 200 parent kinases. The reconstructed 366-by-224
@@ -258,6 +261,14 @@ became positive at lower thresholds: $>50$ gained 0.0281
 ($[0.0059,0.0354]$, Holm $p=0.0968$). They define a possible regime
 hypothesis; they do not rescue the frozen external test.
 
+A separately frozen post-result PKIS2 audit kept all 406 assay constructs. Its
+chemotype effect was 0.0442 ($[0.0336,0.0554]$; four-test Holm
+$p=4\times10^{-5}$), essentially the parent-level 0.0433; its scaffold effect
+was 0.0109 ($[0.0026,0.0193]$). Inclusive-boundary checks also retained the
+chemotype conclusion at $\geq90$: 0.0353 at parent and 0.0367 at construct
+resolution. Thus collapse does not create either aggregate headline, although
+individual parent hits can remain construct-specific.
+
 \section{Discussion}
 
 The clean result is a separation between a guarantee and a prediction. Under
@@ -279,20 +290,22 @@ heuristics.
 Important limitations remain. All evidence is retrospective. PKIS1 and PKIS2
 are different compound panels but share the PKIS ecosystem; Klaeger adds a
 different binding modality but only 111 compounds. Percent-inhibition
-thresholds are operational labels, not potency estimates. Max-collapsing assay
-constructs changes the biological question, although the construct-level audit
-did not reverse the external result. Morgan similarity and reference profiles
+thresholds are operational labels, not potency estimates; their source paper
+also calls threshold choice arbitrary. Max-collapsing assay constructs changes
+the biological question, although construct-level audits did not reverse either
+panel conclusion. Morgan similarity and reference profiles
 omit target structure, concentration response, cell context, pharmacokinetics,
 and assay cost. The method ranks kinase counter-screens; it neither predicts a
 therapeutic window nor recommends a compound or treatment.
 
-A kinase-assay expert must review four points before submission or reuse:
-(i) parent-target collapse across mutants and complexes; (ii) comparability of
-Nanosyn percent inhibition, PKIS2 inhibition, and Kinobeads $K_d$ while keeping
-their results separate; (iii) whether $>80/>90$ and relative-$K_d$ labels are
-appropriate for the stated counter-screen decision; and (iv) representative
-orders for known assay artifacts and promiscuous compounds. No such review is
-fabricated here.
+An AI-assisted source/data audit reviewed parent collapse, cross-platform
+interpretation, label thresholds, all 35 large external delays, broad profiles,
+and representative gains and losses. It found 11 PKIS1 and 13 PKIS2
+multi-construct parent groups and released 288 underlying records for 63
+flagged case-condition rows. This is not independent human expert sign-off or
+biological validation; no such review is claimed. A named kinase-assay scientist
+should still assess whether the any-construct and relative-affinity endpoints
+match a real screening team's decision before prospective use.
 
 \section{Conclusion}
 
@@ -333,9 +346,11 @@ why PKIS1 was required.
 
 \section{Biological-review handoff}
 
-The release includes a checklist with source-record examples for expert review.
-Any paper revision following expert feedback must distinguish corrections of
-biological interpretation from outcome-driven changes to the algorithm. A
+The release includes the completed computational/literature review, full
+construct mappings, threshold-boundary audit, all flagged cases, and source
+records. Independent human attestation remains explicitly outstanding. Any
+later revision following expert feedback must distinguish interpretation
+corrections from outcome-driven changes to the algorithm. A
 future decisive experiment is a preregistered prospective or time-split kinase
 panel in a discovery-relevant chemical series, with assay costs and confirmation
 measurements specified before ranking.

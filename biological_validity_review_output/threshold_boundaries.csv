@@ -1,0 +1,9 @@
+dataset,boundary,observed_cells,exact_boundary_cells,fraction_exact_boundary
+PKIS1 selected raw rows,80,82607,1,1.210551163944944e-05
+PKIS1 selected raw rows,90,82607,0,0.0
+PKIS1 retained parent matrix,80,71161,1,1.4052641193912397e-05
+PKIS1 retained parent matrix,90,71161,0,0.0
+PKIS1 retained construct matrix,80,79697,1,1.254752374618869e-05
+PKIS1 retained construct matrix,90,79697,0,0.0
+PKIS2 raw workbook cells,80,261871,275,0.0010501353719961355
+PKIS2 raw workbook cells,90,261871,169,0.000645355919517625

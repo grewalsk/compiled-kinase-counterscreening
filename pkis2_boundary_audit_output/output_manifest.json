@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "bytes": 427595,
+      "path": "case_metrics.csv.gz",
+      "sha256": "f7d87209c82cd7d38bc74131dd81dbea64185422679b0e518b39daf29f958759"
+    },
+    {
+      "bytes": 1826,
+      "path": "comparison_summary.csv",
+      "sha256": "4df0e67bcb750a4c1bdbe15f609f7f6a5ca0d22dcd7834e26889e3e4c7153a7e"
+    },
+    {
+      "bytes": 4645,
+      "path": "summary.json",
+      "sha256": "124f26cf53f8e7a7af58a863bf6adb79c1a8cd00586a1be19572e590ab21de6c"
+    }
+  ]
+}

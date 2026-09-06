@@ -1,6 +1,13 @@
 # Required kinase-assay expert review
 
-Status: **not yet completed**
+Status: **computational/literature review completed 2026-09-05; independent
+human kinase-assay attestation remains outstanding**
+
+The completed evidence record is `BIOLOGICAL_VALIDITY_REVIEW.md`, with
+machine-readable source and case evidence in
+`biological_validity_review_output/`, `pkis2_construct_audit_output/`, and
+`pkis2_boundary_audit_output/`. This checklist is retained to make the
+remaining human-sign-off boundary explicit.
 
 This checklist is a mandatory scientific-validity handoff for the
 rank-deadline coverage paper. It is not an invitation to tune the algorithm or
@@ -65,8 +72,8 @@ must not be selected alone.
 
 ## Sign-off boundary
 
-The computational paper may truthfully report that the above review is
-outstanding. It must not claim biological validation until all four sections
-are completed. Expert feedback may correct data semantics and interpretation;
-any algorithm or endpoint change prompted after results must be labeled
-post hoc and re-evaluated on a genuinely new validation set.
+All four sections now have an AI-assisted, reproducible source/data audit. The
+paper may report those results but must not call them independent human review
+or biological validation. Expert feedback may correct data semantics and
+interpretation; any algorithm or endpoint change prompted after results must
+be labeled post hoc and re-evaluated on a genuinely new validation set.
